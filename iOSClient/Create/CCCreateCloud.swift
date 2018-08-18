@@ -700,7 +700,11 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
             return
         }
         
-        let path = CCUtility.getDirectoryGroup().appendingPathComponent(k_DirectoryProviderStorage).path+"/"+"scan1.pdf"
+        let fileName = CCUtility.createFileName("scan", fileDate: Date(), fileType: PHAssetMediaType.image, keyFileName: k_keyFileNameMask, keyFileNameType: k_keyFileNameType, keyFileNameOriginal: k_keyFileNameOriginal)!
+        let fileNamePath = CCUtility.getDirectoryGroup().appendingPathComponent(k_DirectoryProviderStorage).appendingPathComponent(fileName)
+        
+        let imageData = UIImageJPEGRepresentation(imageBN, 0.8)!
+        try? imageData.write(to: fileNamePath)
         
         /*
         do {
