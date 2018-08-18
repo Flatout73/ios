@@ -700,17 +700,22 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
             return
         }
         
+        let path = CCUtility.getDirectoryGroup().appendingPathComponent(k_DirectoryProviderStorage).path+"/"+"scan1.pdf"
+        
+        /*
         do {
             let page: [PDFPage] = [
                 .whitePage(PDFPageSize.A4),
                 .image(imageBN)
             ]
-            let path = NSTemporaryDirectory().appending("sample1.pdf")
+            
+            let path = CCUtility.getDirectoryGroup().appendingPathComponent(k_DirectoryProviderStorage).path+"/"+"scan1.pdf"
             try PDFGenerator.generate(page, to: path)
+            
         } catch let error {
             print(error)
         }
-        
+        */
     }
     
     @available(iOS 10, *)
