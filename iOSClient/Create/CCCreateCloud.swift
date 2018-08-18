@@ -693,7 +693,24 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
     
     @available(iOS 10, *)
     func imageScannerController(_ scanner: ImageScannerController, didFinishScanningWithResults results: ImageScannerResults) {
+        
         scanner.dismiss(animated: true, completion: nil)
+
+        guard let imageBN = getScannedImage(inputImage: results.scannedImage) else {
+            return
+        }
+        
+        do {
+            let page: [PDFPage] = [
+                .whitePage(PDFPageSize.A4),
+                .image(imageBN)
+            ]
+            let path = NSTemporaryDirectory().appending("sample1.pdf")
+            try PDFGenerator.generate(page, to: path)
+        } catch let error {
+            print(error)
+        }
+        
     }
     
     @available(iOS 10, *)
@@ -703,6 +720,28 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
     
     @available(iOS 10, *)
     func imageScannerController(_ scanner: ImageScannerController, didFailWithError error: Error) {
+        appDelegate.messageNotification("_error_", description: error.localizedDescription, visible: true, delay: TimeInterval(k_dismissAfterSecond), type: TWMessageBarMessageType.error, errorCode: Int(k_CCErrorInternalError))
         print(error)
+    }
+    
+    func getScannedImage(inputImage: UIImage) -> UIImage? {
+        
+        let openGLContext = EAGLContext(api: .openGLES2)
+        let context = CIContext(eaglContext: openGLContext!)
+        
+        let filter = CIFilter(name: "CIColorControls")
+        let coreImage = CIImage(image: inputImage)
+        
+        filter?.setValue(coreImage, forKey: kCIInputImageKey)
+        //Key value are changable according to your need.
+        filter?.setValue(7, forKey: kCIInputContrastKey)
+        filter?.setValue(1, forKey: kCIInputSaturationKey)
+        filter?.setValue(1.2, forKey: kCIInputBrightnessKey)
+        
+        if let outputImage = filter?.value(forKey: kCIOutputImageKey) as? CIImage {
+            let output = context.createCGImage(outputImage, from: outputImage.extent)
+            return UIImage(cgImage: output!)
+        }
+        return nil
     }
 }
