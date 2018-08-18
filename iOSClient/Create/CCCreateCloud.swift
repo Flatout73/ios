@@ -66,19 +66,25 @@ class CreateMenuAdd: NSObject {
         actionSheet.cancelButtonTitle = NSLocalizedString("_cancel_", comment: "")
         
         actionSheet.addButton(withTitle: NSLocalizedString("_upload_photos_videos_", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "media"), multiplier:2, color: colorGray), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0, type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
-            appDelegate.activeMain.returnCreate(Int(k_returnCreateFotoVideoPlain))
+            appDelegate.activeMain.returnCreate(Int(k_returnCreateFotoAsset))
         })
         
         actionSheet.addButton(withTitle: NSLocalizedString("_upload_file_", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "file"), multiplier:2, color: colorGray), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0, type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
-            appDelegate.activeMain.returnCreate(Int(k_returnCreateFilePlain))
+            appDelegate.activeMain.returnCreate(Int(k_returnCreateFile))
         })
         
         actionSheet.addButton(withTitle: NSLocalizedString("_upload_file_text_", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "file_txt"), multiplier:2, color: colorGray), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0, type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
             appDelegate.activeMain.returnCreate(Int(k_returnCreateFileText))
         })
         
+        if #available(iOS 10.0, *) {
+            actionSheet.addButton(withTitle: NSLocalizedString("scan document", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "file_txt"), multiplier:2, color: colorGray), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0, type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
+                NCCreateScanDocument.sharedInstance.openScannerDocument()
+            })
+        }
+        
         actionSheet.addButton(withTitle: NSLocalizedString("_create_folder_", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "folder"), multiplier:2, color: colorIcon), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0 ,type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
-            appDelegate.activeMain.returnCreate(Int(k_returnCreateFolderPlain))
+            appDelegate.activeMain.returnCreate(Int(k_returnCreateFolder))
         })
         
         actionSheet.show()
@@ -667,4 +673,36 @@ class CreateFormUploadFile: XLFormViewController, CCMoveDelegate {
     }
 }
 
+//MARK: -
 
+class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
+    
+    @objc static let sharedInstance: NCCreateScanDocument = {
+        let instance = NCCreateScanDocument()
+        return instance
+    }()
+    
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+
+    @available(iOS 10, *)
+    func openScannerDocument() {
+        let scannerVC = ImageScannerController()
+        scannerVC.imageScannerDelegate = self
+        appDelegate.activeMain.present(scannerVC, animated: true, completion: nil)
+    }
+    
+    @available(iOS 10, *)
+    func imageScannerController(_ scanner: ImageScannerController, didFinishScanningWithResults results: ImageScannerResults) {
+        scanner.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 10, *)
+    func imageScannerControllerDidCancel(_ scanner: ImageScannerController) {
+        scanner.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 10, *)
+    func imageScannerController(_ scanner: ImageScannerController, didFailWithError error: Error) {
+        print(error)
+    }
+}

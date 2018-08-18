@@ -867,7 +867,7 @@
 {
     switch (type) {
             
-        case k_returnCreateFolderPlain: {
+        case k_returnCreateFolder: {
             
             NSString *serverUrl = [appDelegate getTabBarControllerActiveServerUrl];
             NSString *message;
@@ -905,28 +905,16 @@
             [self presentViewController:alertController animated:YES completion:nil];
         }
             break;
-        case k_returnCreateFotoVideoPlain: {
+        case k_returnCreateFotoAsset: {
             
             [self openAssetsPickerController];
         }
             break;
-        case k_returnCreateFilePlain: {
+        case k_returnCreateFile: {
             
             [self openImportDocumentPicker];
         }
             break;
-            
-        case k_returnCreateFotoVideoEncrypted: {
-            
-            [self openAssetsPickerController];
-        }
-            break;
-        case k_returnCreateFileEncrypted: {
-            
-            [self openImportDocumentPicker];
-        }
-            break;
-    
         case k_returnCreateFileText: {
             
             UINavigationController* navigationController = [[UIStoryboard storyboardWithName:@"NCText" bundle:nil] instantiateViewControllerWithIdentifier:@"NCText"];
