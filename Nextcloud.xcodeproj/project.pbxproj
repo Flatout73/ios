@@ -417,6 +417,13 @@
 		F7A92D5321285D15008D718B /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3721285D15008D718B /* Quadrilateral.swift */; };
 		F7A92D5421285D15008D718B /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3921285D15008D718B /* ReviewViewController.swift */; };
 		F7A92D5521285D15008D718B /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3B21285D15008D718B /* Transformable.swift */; };
+		F7A92D61212869F4008D718B /* PDFPageRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D58212869F4008D718B /* PDFPageRenderable.swift */; };
+		F7A92D62212869F4008D718B /* DPIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D59212869F4008D718B /* DPIType.swift */; };
+		F7A92D63212869F4008D718B /* PDFPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5A212869F4008D718B /* PDFPassword.swift */; };
+		F7A92D64212869F4008D718B /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5B212869F4008D718B /* PDFGenerator.swift */; };
+		F7A92D65212869F4008D718B /* FilePathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5C212869F4008D718B /* FilePathConvertible.swift */; };
+		F7A92D66212869F4008D718B /* PDFPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5D212869F4008D718B /* PDFPage.swift */; };
+		F7A92D67212869F4008D718B /* PDFGenerateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5E212869F4008D718B /* PDFGenerateError.swift */; };
 		F7B0C0CD1EE7E7750033AC24 /* CCSynchronize.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B0C0CC1EE7E7750033AC24 /* CCSynchronize.m */; };
 		F7B0C1751EE839A30033AC24 /* NCAutoUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B0C1741EE839A30033AC24 /* NCAutoUpload.m */; };
 		F7B1FBC41E72E3D1001781FE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B1FBB11E72E3D1001781FE /* Media.xcassets */; };
@@ -1367,6 +1374,14 @@
 		F7A92D3721285D15008D718B /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
 		F7A92D3921285D15008D718B /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		F7A92D3B21285D15008D718B /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
+		F7A92D58212869F4008D718B /* PDFPageRenderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageRenderable.swift; sourceTree = "<group>"; };
+		F7A92D59212869F4008D718B /* DPIType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPIType.swift; sourceTree = "<group>"; };
+		F7A92D5A212869F4008D718B /* PDFPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPassword.swift; sourceTree = "<group>"; };
+		F7A92D5B212869F4008D718B /* PDFGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		F7A92D5C212869F4008D718B /* FilePathConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePathConvertible.swift; sourceTree = "<group>"; };
+		F7A92D5D212869F4008D718B /* PDFPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPage.swift; sourceTree = "<group>"; };
+		F7A92D5E212869F4008D718B /* PDFGenerateError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFGenerateError.swift; sourceTree = "<group>"; };
+		F7A92D5F212869F4008D718B /* PDFGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFGenerator.h; sourceTree = "<group>"; };
 		F7ACE4291BAC0268006C0017 /* Acknowledgements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acknowledgements.h; sourceTree = "<group>"; };
 		F7ACE42A1BAC0268006C0017 /* Acknowledgements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acknowledgements.m; sourceTree = "<group>"; };
 		F7ACE42B1BAC0268006C0017 /* Acknowledgements.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Acknowledgements.rtf; sourceTree = "<group>"; };
@@ -1937,22 +1952,23 @@
 				F7659A211DC0B726004860C4 /* EAIntroView */,
 				F7659A2A1DC0B72F004860C4 /* EARestrictedScrollView */,
 				F72D0FED210B6638009C96B7 /* Firebase */,
+				F7659A2F1DC0B737004860C4 /* iRate */,
 				F78964A61EBB576C00403E13 /* JDStatusBarNotification */,
 				F784FA24210F672E00256C26 /* KTVHTTPCache */,
-				F7659A2F1DC0B737004860C4 /* iRate */,
 				F70F04821C889183008DAB36 /* MBProgressHUD */,
 				F7DC5FD31F00F98B00A903C7 /* MGSwipeTableCell */,
 				F7B2DEEB1F976785007CF4D2 /* NYMnemonic */,
 				F7540EE11D5B238600C3FFA8 /* openssl */,
+				F7A92D57212869F4008D718B /* PDFGenerator */,
 				F7CA1EBB20E7E3FE002CC65E /* PKDownloadButton */,
 				F75037421DBFA91A008FB480 /* PureLayout */,
 				F70F05241C889184008DAB36 /* Reachability */,
 				F7DFE24E1EBDC3A400CF5202 /* Realm */,
-				F7A55417204EF8AF008468EC /* TOScrollBar */,
 				F75AE3C51E9D12900088BB09 /* SwiftyAvatar */,
-				F7A92D1A21285D15008D718B /* WeScan */,
+				F7A55417204EF8AF008468EC /* TOScrollBar */,
 				F73CCE271DC13798007E38D8 /* UICKeyChainStore */,
 				F70F05561C889184008DAB36 /* UIImage+animatedGIF */,
+				F7A92D1A21285D15008D718B /* WeScan */,
 			);
 			path = "Libraries external";
 			sourceTree = SOURCE_ROOT;
@@ -2735,6 +2751,21 @@
 				F7A92D3B21285D15008D718B /* Transformable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F7A92D57212869F4008D718B /* PDFGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				F7A92D58212869F4008D718B /* PDFPageRenderable.swift */,
+				F7A92D59212869F4008D718B /* DPIType.swift */,
+				F7A92D5A212869F4008D718B /* PDFPassword.swift */,
+				F7A92D5B212869F4008D718B /* PDFGenerator.swift */,
+				F7A92D5C212869F4008D718B /* FilePathConvertible.swift */,
+				F7A92D5D212869F4008D718B /* PDFPage.swift */,
+				F7A92D5E212869F4008D718B /* PDFGenerateError.swift */,
+				F7A92D5F212869F4008D718B /* PDFGenerator.h */,
+			);
+			path = PDFGenerator;
 			sourceTree = "<group>";
 		};
 		F7ACE4281BAC0268006C0017 /* Settings */ = {
@@ -4031,6 +4062,7 @@
 				F7CA1ED120E7E3FE002CC65E /* PKCircleProgressView.m in Sources */,
 				F75AE3C71E9D12900088BB09 /* SwiftyAvatar.swift in Sources */,
 				F762CAFC1EACB66200B38484 /* XLFormImageCell.m in Sources */,
+				F7A92D65212869F4008D718B /* FilePathConvertible.swift in Sources */,
 				F72D1007210B6882009C96B7 /* NCPushNotificationEncryption.m in Sources */,
 				F70022D11EC4C9100080073F /* OCUserProfile.m in Sources */,
 				F7A92D4021285D15008D718B /* CaptureSessionManager.swift in Sources */,
@@ -4045,6 +4077,7 @@
 				F7D424601F063B82009C9782 /* CTAssetPlayButton.m in Sources */,
 				F70022E31EC4C9100080073F /* OCXMLParser.m in Sources */,
 				F77B0E311D118A16002130FE /* CCExifGeo.m in Sources */,
+				F7A92D62212869F4008D718B /* DPIType.swift in Sources */,
 				F7D4246B1F063B82009C9782 /* CTAssetsPageView.m in Sources */,
 				F73B4F0E1F470D9100BBEE4B /* nsMBCSGroupProber.cpp in Sources */,
 				F78964AE1EBB576C00403E13 /* JDStatusBarStyle.m in Sources */,
@@ -4091,6 +4124,7 @@
 				F7D424691F063B82009C9782 /* CTAssetsGridViewLayout.m in Sources */,
 				F7D4237E1F0596C6009C9782 /* ReaderDocument.m in Sources */,
 				F7D424661F063B82009C9782 /* CTAssetsGridViewCell.m in Sources */,
+				F7A92D67212869F4008D718B /* PDFGenerateError.swift in Sources */,
 				F7659A291DC0B726004860C4 /* EAIntroView.m in Sources */,
 				F7D4237C1F0596C6009C9782 /* ReaderContentTile.m in Sources */,
 				F7D424581F063B82009C9782 /* PHAssetCollection+CTAssetsPickerController.m in Sources */,
@@ -4146,6 +4180,7 @@
 				F77B0E9B1D118A16002130FE /* CCBKPasscode.m in Sources */,
 				F7659A271DC0B726004860C4 /* EAIntroPage.m in Sources */,
 				F7A92D4221285D15008D718B /* CloseButton.swift in Sources */,
+				F7A92D61212869F4008D718B /* PDFPageRenderable.swift in Sources */,
 				F7169A1D1EE590930086BD69 /* NCSharesCell.m in Sources */,
 				F77B0EA61D118A16002130FE /* NSString+TruncateToWidth.m in Sources */,
 				F7D424651F063B82009C9782 /* CTAssetsGridView.m in Sources */,
@@ -4159,9 +4194,11 @@
 				F70022BC1EC4C9100080073F /* OCExternalSites.m in Sources */,
 				F7A92D3D21285D15008D718B /* ImageScannerController.swift in Sources */,
 				F73CC07B1E813DFF006E3047 /* BKTouchIDManager.m in Sources */,
+				F7A92D64212869F4008D718B /* PDFGenerator.swift in Sources */,
 				F762CB031EACB66200B38484 /* XLFormStepCounterCell.m in Sources */,
 				F762CAF71EACB66200B38484 /* XLFormBaseCell.m in Sources */,
 				F70022E01EC4C9100080073F /* OCXMLListParser.m in Sources */,
+				F7A92D66212869F4008D718B /* PDFPage.swift in Sources */,
 				F70022B31EC4C9100080073F /* OCActivity.m in Sources */,
 				F70022D41EC4C9100080073F /* NSDate+ISO8601.m in Sources */,
 				F7D424731F063B82009C9782 /* CTAssetThumbnailStacks.m in Sources */,
@@ -4184,6 +4221,7 @@
 				F73B4EFF1F470D9100BBEE4B /* LangRussianModel.cpp in Sources */,
 				F7BAADCB1ED5A87C00B7EAD4 /* NCManageDatabase.swift in Sources */,
 				F7D424551F063B82009C9782 /* NSIndexSet+CTAssetsPickerController.m in Sources */,
+				F7A92D63212869F4008D718B /* PDFPassword.swift in Sources */,
 				F7A321551E9E2A070069AD1B /* CCFavorites.m in Sources */,
 				F7A92D4821285D15008D718B /* CGRect+Utils.swift in Sources */,
 				F73B4F031F470D9100BBEE4B /* LangVietnameseModel.cpp in Sources */,
