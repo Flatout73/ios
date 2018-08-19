@@ -79,7 +79,7 @@ class CreateMenuAdd: NSObject {
         
         if #available(iOS 10.0, *) {
             actionSheet.addButton(withTitle: NSLocalizedString("scan document", comment: ""), image: CCGraphics.changeThemingColorImage(UIImage(named: "file_txt"), multiplier:2, color: colorGray), backgroundColor: NCBrandColor.sharedInstance.backgroundView, height: 50.0, type: AHKActionSheetButtonType.default, handler: {(AHKActionSheet) -> Void in
-                NCCreateScanDocument.sharedInstance.openScannerDocument()
+                NCCreateScanDocument.sharedInstance.openScannerDocument(viewController: appDelegate.activeMain)
             })
         }
         
@@ -685,10 +685,10 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     @available(iOS 10, *)
-    func openScannerDocument() {
+    func openScannerDocument(viewController: UIViewController) {
         let scannerVC = ImageScannerController()
         scannerVC.imageScannerDelegate = self
-        appDelegate.activeMain.present(scannerVC, animated: true, completion: nil)
+        viewController.present(scannerVC, animated: true, completion: nil)
     }
     
     @available(iOS 10, *)
@@ -696,15 +696,20 @@ class NCCreateScanDocument : NSObject, ImageScannerControllerDelegate {
         
         scanner.dismiss(animated: true, completion: nil)
 
-        guard let imageBN = getScannedImage(inputImage: results.scannedImage) else {
+        guard let image = getScannedImage(inputImage: results.scannedImage) else {
             return
         }
         
         let fileName = CCUtility.createFileName("scan", fileDate: Date(), fileType: PHAssetMediaType.image, keyFileName: k_keyFileNameMask, keyFileNameType: k_keyFileNameType, keyFileNameOriginal: k_keyFileNameOriginal)!
         let fileNamePath = CCUtility.getDirectoryGroup().appendingPathComponent(k_DirectoryProviderStorage).appendingPathComponent(fileName)
         
-        let imageData = UIImageJPEGRepresentation(imageBN, 0.8)!
-        try? imageData.write(to: fileNamePath)
+        do {
+            try UIImagePNGRepresentation(image)?.write(to: fileNamePath, options: .atomic)
+        } catch { }
+        
+        
+//        let imageData = UIImageJPEGRepresentation(imageBN, 0.8)!
+//        try? imageData.write(to: fileNamePath)
         
         /*
         do {
