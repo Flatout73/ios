@@ -374,6 +374,29 @@
 		F77EB62A1EC0B50A003F814F /* CCCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F801011D98205A007537BC /* CCCertificate.m */; };
 		F78071091EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F78071081EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m */; };
 		F780710A1EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F78071081EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m */; };
+		F7808549212936EE00014635 /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780852B212936EE00014635 /* ImageScannerController.swift */; };
+		F780854A212936EE00014635 /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780852D212936EE00014635 /* RectangleFeaturesFunnel.swift */; };
+		F780854B212936EE00014635 /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780852E212936EE00014635 /* CaptureSessionManager.swift */; };
+		F780854C212936EE00014635 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780852F212936EE00014635 /* ShutterButton.swift */; };
+		F780854D212936EE00014635 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808530212936EE00014635 /* CloseButton.swift */; };
+		F780854E212936EE00014635 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808531212936EE00014635 /* ScannerViewController.swift */; };
+		F780854F212936EE00014635 /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808533212936EE00014635 /* AVCaptureVideoOrientation+Utils.swift */; };
+		F7808550212936EE00014635 /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808534212936EE00014635 /* CGPoint+Utils.swift */; };
+		F7808551212936EE00014635 /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808535212936EE00014635 /* CGAffineTransform+Utils.swift */; };
+		F7808552212936EE00014635 /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808536212936EE00014635 /* CGRect+Utils.swift */; };
+		F7808553212936EE00014635 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808537212936EE00014635 /* Array+Utils.swift */; };
+		F7808554212936EE00014635 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808538212936EE00014635 /* UIImage+Orientation.swift */; };
+		F7808555212936EE00014635 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808539212936EE00014635 /* UIImage+Utils.swift */; };
+		F7808556212936EE00014635 /* CIRectangleFeature+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780853A212936EE00014635 /* CIRectangleFeature+Utils.swift */; };
+		F7808557212936EE00014635 /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780853C212936EE00014635 /* ZoomGestureController.swift */; };
+		F7808558212936EE00014635 /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780853D212936EE00014635 /* EditScanViewController.swift */; };
+		F7808559212936EE00014635 /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808540212936EE00014635 /* EditScanCornerView.swift */; };
+		F780855A212936EE00014635 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808541212936EE00014635 /* Error.swift */; };
+		F780855B212936EE00014635 /* RectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808542212936EE00014635 /* RectangleDetector.swift */; };
+		F780855C212936EE00014635 /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808543212936EE00014635 /* QuadrilateralView.swift */; };
+		F780855D212936EE00014635 /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808544212936EE00014635 /* Quadrilateral.swift */; };
+		F780855E212936EE00014635 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808546212936EE00014635 /* ReviewViewController.swift */; };
+		F780855F212936EE00014635 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7808548212936EE00014635 /* Transformable.swift */; };
 		F78295311F962EFA00A572F5 /* NCEndToEndEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F70CAE391F8CF31A008125FD /* NCEndToEndEncryption.m */; };
 		F784FA28210F672E00256C26 /* KTVCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F784FA26210F672E00256C26 /* KTVCocoaHTTPServer.framework */; };
 		F784FA29210F672E00256C26 /* KTVHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F784FA27210F672E00256C26 /* KTVHTTPCache.framework */; };
@@ -394,29 +417,6 @@
 		F7A5541E204EF8AF008468EC /* TOScrollBarGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A55418204EF8AF008468EC /* TOScrollBarGestureRecognizer.m */; };
 		F7A5541F204EF8AF008468EC /* TOScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5541B204EF8AF008468EC /* TOScrollBar.m */; };
 		F7A55420204EF8AF008468EC /* UIScrollView+TOScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5541D204EF8AF008468EC /* UIScrollView+TOScrollBar.m */; };
-		F7A92D3D21285D15008D718B /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D1B21285D15008D718B /* ImageScannerController.swift */; };
-		F7A92D3F21285D15008D718B /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D1F21285D15008D718B /* RectangleFeaturesFunnel.swift */; };
-		F7A92D4021285D15008D718B /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2021285D15008D718B /* CaptureSessionManager.swift */; };
-		F7A92D4121285D15008D718B /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2121285D15008D718B /* ShutterButton.swift */; };
-		F7A92D4221285D15008D718B /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2221285D15008D718B /* CloseButton.swift */; };
-		F7A92D4321285D15008D718B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2321285D15008D718B /* ScannerViewController.swift */; };
-		F7A92D4521285D15008D718B /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2621285D15008D718B /* AVCaptureVideoOrientation+Utils.swift */; };
-		F7A92D4621285D15008D718B /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2721285D15008D718B /* CGPoint+Utils.swift */; };
-		F7A92D4721285D15008D718B /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2821285D15008D718B /* CGAffineTransform+Utils.swift */; };
-		F7A92D4821285D15008D718B /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2921285D15008D718B /* CGRect+Utils.swift */; };
-		F7A92D4921285D15008D718B /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2A21285D15008D718B /* Array+Utils.swift */; };
-		F7A92D4A21285D15008D718B /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2B21285D15008D718B /* UIImage+Orientation.swift */; };
-		F7A92D4B21285D15008D718B /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2C21285D15008D718B /* UIImage+Utils.swift */; };
-		F7A92D4C21285D15008D718B /* CIRectangleFeature+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2D21285D15008D718B /* CIRectangleFeature+Utils.swift */; };
-		F7A92D4D21285D15008D718B /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D2F21285D15008D718B /* ZoomGestureController.swift */; };
-		F7A92D4E21285D15008D718B /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3021285D15008D718B /* EditScanViewController.swift */; };
-		F7A92D4F21285D15008D718B /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3321285D15008D718B /* EditScanCornerView.swift */; };
-		F7A92D5021285D15008D718B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3421285D15008D718B /* Error.swift */; };
-		F7A92D5121285D15008D718B /* RectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3521285D15008D718B /* RectangleDetector.swift */; };
-		F7A92D5221285D15008D718B /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3621285D15008D718B /* QuadrilateralView.swift */; };
-		F7A92D5321285D15008D718B /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3721285D15008D718B /* Quadrilateral.swift */; };
-		F7A92D5421285D15008D718B /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3921285D15008D718B /* ReviewViewController.swift */; };
-		F7A92D5521285D15008D718B /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D3B21285D15008D718B /* Transformable.swift */; };
 		F7A92D61212869F4008D718B /* PDFPageRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D58212869F4008D718B /* PDFPageRenderable.swift */; };
 		F7A92D62212869F4008D718B /* DPIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D59212869F4008D718B /* DPIType.swift */; };
 		F7A92D63212869F4008D718B /* PDFPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A92D5A212869F4008D718B /* PDFPassword.swift */; };
@@ -1290,6 +1290,30 @@
 		F77D49A71DC238E500CDC568 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		F78071071EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+MainThread.h"; sourceTree = "<group>"; };
 		F78071081EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+MainThread.m"; sourceTree = "<group>"; };
+		F780852B212936EE00014635 /* ImageScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScannerController.swift; sourceTree = "<group>"; };
+		F780852D212936EE00014635 /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
+		F780852E212936EE00014635 /* CaptureSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionManager.swift; sourceTree = "<group>"; };
+		F780852F212936EE00014635 /* ShutterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShutterButton.swift; sourceTree = "<group>"; };
+		F7808530212936EE00014635 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		F7808531212936EE00014635 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		F7808533212936EE00014635 /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
+		F7808534212936EE00014635 /* CGPoint+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Utils.swift"; sourceTree = "<group>"; };
+		F7808535212936EE00014635 /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
+		F7808536212936EE00014635 /* CGRect+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Utils.swift"; sourceTree = "<group>"; };
+		F7808537212936EE00014635 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		F7808538212936EE00014635 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		F7808539212936EE00014635 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		F780853A212936EE00014635 /* CIRectangleFeature+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIRectangleFeature+Utils.swift"; sourceTree = "<group>"; };
+		F780853C212936EE00014635 /* ZoomGestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGestureController.swift; sourceTree = "<group>"; };
+		F780853D212936EE00014635 /* EditScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanViewController.swift; sourceTree = "<group>"; };
+		F780853E212936EE00014635 /* WeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeScan.h; sourceTree = "<group>"; };
+		F7808540212936EE00014635 /* EditScanCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanCornerView.swift; sourceTree = "<group>"; };
+		F7808541212936EE00014635 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F7808542212936EE00014635 /* RectangleDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDetector.swift; sourceTree = "<group>"; };
+		F7808543212936EE00014635 /* QuadrilateralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadrilateralView.swift; sourceTree = "<group>"; };
+		F7808544212936EE00014635 /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
+		F7808546212936EE00014635 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		F7808548212936EE00014635 /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
 		F78316861C0CB3CA00C43975 /* CCShareUserOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCShareUserOC.h; sourceTree = "<group>"; };
 		F78316871C0CB3CA00C43975 /* CCShareUserOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCShareUserOC.m; sourceTree = "<group>"; };
 		F784FA25210F672E00256C26 /* KTVHTTPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTVHTTPCache.h; sourceTree = "<group>"; };
@@ -1350,30 +1374,6 @@
 		F7A5541D204EF8AF008468EC /* UIScrollView+TOScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TOScrollBar.m"; sourceTree = "<group>"; };
 		F7A582D61A24DAB500E903D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; };
 		F7A582D71A24DAB500E903D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; };
-		F7A92D1B21285D15008D718B /* ImageScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScannerController.swift; sourceTree = "<group>"; };
-		F7A92D1F21285D15008D718B /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
-		F7A92D2021285D15008D718B /* CaptureSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionManager.swift; sourceTree = "<group>"; };
-		F7A92D2121285D15008D718B /* ShutterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShutterButton.swift; sourceTree = "<group>"; };
-		F7A92D2221285D15008D718B /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		F7A92D2321285D15008D718B /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
-		F7A92D2621285D15008D718B /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2721285D15008D718B /* CGPoint+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2821285D15008D718B /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2921285D15008D718B /* CGRect+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2A21285D15008D718B /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2B21285D15008D718B /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
-		F7A92D2C21285D15008D718B /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2D21285D15008D718B /* CIRectangleFeature+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIRectangleFeature+Utils.swift"; sourceTree = "<group>"; };
-		F7A92D2F21285D15008D718B /* ZoomGestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGestureController.swift; sourceTree = "<group>"; };
-		F7A92D3021285D15008D718B /* EditScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanViewController.swift; sourceTree = "<group>"; };
-		F7A92D3121285D15008D718B /* WeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeScan.h; sourceTree = "<group>"; };
-		F7A92D3321285D15008D718B /* EditScanCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanCornerView.swift; sourceTree = "<group>"; };
-		F7A92D3421285D15008D718B /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		F7A92D3521285D15008D718B /* RectangleDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleDetector.swift; sourceTree = "<group>"; };
-		F7A92D3621285D15008D718B /* QuadrilateralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadrilateralView.swift; sourceTree = "<group>"; };
-		F7A92D3721285D15008D718B /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
-		F7A92D3921285D15008D718B /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
-		F7A92D3B21285D15008D718B /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformable.swift; sourceTree = "<group>"; };
 		F7A92D58212869F4008D718B /* PDFPageRenderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageRenderable.swift; sourceTree = "<group>"; };
 		F7A92D59212869F4008D718B /* DPIType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPIType.swift; sourceTree = "<group>"; };
 		F7A92D5A212869F4008D718B /* PDFPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPassword.swift; sourceTree = "<group>"; };
@@ -1968,7 +1968,6 @@
 				F7A55417204EF8AF008468EC /* TOScrollBar */,
 				F73CCE271DC13798007E38D8 /* UICKeyChainStore */,
 				F70F05561C889184008DAB36 /* UIImage+animatedGIF */,
-				F7A92D1A21285D15008D718B /* WeScan */,
 			);
 			path = "Libraries external";
 			sourceTree = SOURCE_ROOT;
@@ -2601,6 +2600,85 @@
 			path = "File Provider Extension";
 			sourceTree = "<group>";
 		};
+		F780852A212936EE00014635 /* WeScan */ = {
+			isa = PBXGroup;
+			children = (
+				F780852B212936EE00014635 /* ImageScannerController.swift */,
+				F780852C212936EE00014635 /* Scan */,
+				F7808532212936EE00014635 /* Extensions */,
+				F780853B212936EE00014635 /* Edit */,
+				F780853E212936EE00014635 /* WeScan.h */,
+				F780853F212936EE00014635 /* Common */,
+				F7808545212936EE00014635 /* Review */,
+				F7808547212936EE00014635 /* Protocols */,
+			);
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+		F780852C212936EE00014635 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				F780852D212936EE00014635 /* RectangleFeaturesFunnel.swift */,
+				F780852E212936EE00014635 /* CaptureSessionManager.swift */,
+				F780852F212936EE00014635 /* ShutterButton.swift */,
+				F7808530212936EE00014635 /* CloseButton.swift */,
+				F7808531212936EE00014635 /* ScannerViewController.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		F7808532212936EE00014635 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7808533212936EE00014635 /* AVCaptureVideoOrientation+Utils.swift */,
+				F7808534212936EE00014635 /* CGPoint+Utils.swift */,
+				F7808535212936EE00014635 /* CGAffineTransform+Utils.swift */,
+				F7808536212936EE00014635 /* CGRect+Utils.swift */,
+				F7808537212936EE00014635 /* Array+Utils.swift */,
+				F7808538212936EE00014635 /* UIImage+Orientation.swift */,
+				F7808539212936EE00014635 /* UIImage+Utils.swift */,
+				F780853A212936EE00014635 /* CIRectangleFeature+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F780853B212936EE00014635 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				F780853C212936EE00014635 /* ZoomGestureController.swift */,
+				F780853D212936EE00014635 /* EditScanViewController.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		F780853F212936EE00014635 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F7808540212936EE00014635 /* EditScanCornerView.swift */,
+				F7808541212936EE00014635 /* Error.swift */,
+				F7808542212936EE00014635 /* RectangleDetector.swift */,
+				F7808543212936EE00014635 /* QuadrilateralView.swift */,
+				F7808544212936EE00014635 /* Quadrilateral.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F7808545212936EE00014635 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				F7808546212936EE00014635 /* ReviewViewController.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		F7808547212936EE00014635 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F7808548212936EE00014635 /* Transformable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		F784FA24210F672E00256C26 /* KTVHTTPCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -2672,85 +2750,6 @@
 				F7A5541D204EF8AF008468EC /* UIScrollView+TOScrollBar.m */,
 			);
 			path = TOScrollBar;
-			sourceTree = "<group>";
-		};
-		F7A92D1A21285D15008D718B /* WeScan */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D1B21285D15008D718B /* ImageScannerController.swift */,
-				F7A92D1E21285D15008D718B /* Scan */,
-				F7A92D2521285D15008D718B /* Extensions */,
-				F7A92D2E21285D15008D718B /* Edit */,
-				F7A92D3121285D15008D718B /* WeScan.h */,
-				F7A92D3221285D15008D718B /* Common */,
-				F7A92D3821285D15008D718B /* Review */,
-				F7A92D3A21285D15008D718B /* Protocols */,
-			);
-			path = WeScan;
-			sourceTree = "<group>";
-		};
-		F7A92D1E21285D15008D718B /* Scan */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D1F21285D15008D718B /* RectangleFeaturesFunnel.swift */,
-				F7A92D2021285D15008D718B /* CaptureSessionManager.swift */,
-				F7A92D2121285D15008D718B /* ShutterButton.swift */,
-				F7A92D2221285D15008D718B /* CloseButton.swift */,
-				F7A92D2321285D15008D718B /* ScannerViewController.swift */,
-			);
-			path = Scan;
-			sourceTree = "<group>";
-		};
-		F7A92D2521285D15008D718B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D2621285D15008D718B /* AVCaptureVideoOrientation+Utils.swift */,
-				F7A92D2721285D15008D718B /* CGPoint+Utils.swift */,
-				F7A92D2821285D15008D718B /* CGAffineTransform+Utils.swift */,
-				F7A92D2921285D15008D718B /* CGRect+Utils.swift */,
-				F7A92D2A21285D15008D718B /* Array+Utils.swift */,
-				F7A92D2B21285D15008D718B /* UIImage+Orientation.swift */,
-				F7A92D2C21285D15008D718B /* UIImage+Utils.swift */,
-				F7A92D2D21285D15008D718B /* CIRectangleFeature+Utils.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F7A92D2E21285D15008D718B /* Edit */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D2F21285D15008D718B /* ZoomGestureController.swift */,
-				F7A92D3021285D15008D718B /* EditScanViewController.swift */,
-			);
-			path = Edit;
-			sourceTree = "<group>";
-		};
-		F7A92D3221285D15008D718B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D3321285D15008D718B /* EditScanCornerView.swift */,
-				F7A92D3421285D15008D718B /* Error.swift */,
-				F7A92D3521285D15008D718B /* RectangleDetector.swift */,
-				F7A92D3621285D15008D718B /* QuadrilateralView.swift */,
-				F7A92D3721285D15008D718B /* Quadrilateral.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		F7A92D3821285D15008D718B /* Review */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D3921285D15008D718B /* ReviewViewController.swift */,
-			);
-			path = Review;
-			sourceTree = "<group>";
-		};
-		F7A92D3A21285D15008D718B /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				F7A92D3B21285D15008D718B /* Transformable.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F7A92D57212869F4008D718B /* PDFGenerator */ = {
@@ -3225,6 +3224,7 @@
 				F7B1FBAF1E72E3D1001781FE /* SwiftWebVC */,
 				F762CB8B1EACB84400B38484 /* TWMessageBarManager */,
 				F762CB1C1EACB7D400B38484 /* VFR Pdf Reader */,
+				F780852A212936EE00014635 /* WeScan */,
 				F762CA9F1EACB66200B38484 /* XLForm */,
 			);
 			path = Library;
@@ -3972,11 +3972,9 @@
 				F7D424671F063B82009C9782 /* CTAssetsGridViewController.m in Sources */,
 				F70022A41EC4C9100080073F /* AFNetworkReachabilityManager.m in Sources */,
 				F762CAFD1EACB66200B38484 /* XLFormInlineSelectorCell.m in Sources */,
-				F7A92D3F21285D15008D718B /* RectangleFeaturesFunnel.swift in Sources */,
 				F77B0DF21D118A16002130FE /* CCUploadFromOtherUpp.m in Sources */,
-				F7A92D5421285D15008D718B /* ReviewViewController.swift in Sources */,
+				F780855B212936EE00014635 /* RectangleDetector.swift in Sources */,
 				F77B0DF41D118A16002130FE /* CCMain.m in Sources */,
-				F7A92D4321285D15008D718B /* ScannerViewController.swift in Sources */,
 				F7E9C41B20F4CA870040CF18 /* CCTransfers.m in Sources */,
 				F73B4F0D1F470D9100BBEE4B /* nsLatin1Prober.cpp in Sources */,
 				F77B0DF51D118A16002130FE /* CCUtility.m in Sources */,
@@ -3988,8 +3986,9 @@
 				F73B4EEF1F470D9100BBEE4B /* CharDistribution.cpp in Sources */,
 				F7B0C0CD1EE7E7750033AC24 /* CCSynchronize.m in Sources */,
 				F77B0DFF1D118A16002130FE /* OCNetworking.m in Sources */,
-				F7A92D4921285D15008D718B /* Array+Utils.swift in Sources */,
+				F780854B212936EE00014635 /* CaptureSessionManager.swift in Sources */,
 				F73B4F081F470D9100BBEE4B /* nsEUCJPProber.cpp in Sources */,
+				F780854A212936EE00014635 /* RectangleFeaturesFunnel.swift in Sources */,
 				F70022DA1EC4C9100080073F /* OCHTTPRequestOperation.m in Sources */,
 				F7D4245C1F063B82009C9782 /* CTAssetCheckmark.m in Sources */,
 				F70022A11EC4C9100080073F /* AFHTTPSessionManager.m in Sources */,
@@ -3999,7 +3998,9 @@
 				F77B0E041D118A16002130FE /* UIImage+animatedGIF.m in Sources */,
 				F7D423881F0596C6009C9782 /* ReaderThumbView.m in Sources */,
 				F73CCE301DC13798007E38D8 /* UICKeyChainStore.m in Sources */,
+				F7808556212936EE00014635 /* CIRectangleFeature+Utils.swift in Sources */,
 				F73B4EFE1F470D9100BBEE4B /* LangHungarianModel.cpp in Sources */,
+				F780854D212936EE00014635 /* CloseButton.swift in Sources */,
 				F7D4238A1F0596C6009C9782 /* ThumbsMainToolbar.m in Sources */,
 				F70022EC1EC4C9100080073F /* OCXMLSharedParser.m in Sources */,
 				F7F54D061E5B14C800E19C62 /* MWCaptionView.m in Sources */,
@@ -4013,13 +4014,13 @@
 				F762CB061EACB66200B38484 /* XLFormTextViewCell.m in Sources */,
 				F762CB881EACB81000B38484 /* REMenuContainerView.m in Sources */,
 				F7D4237F1F0596C6009C9782 /* ReaderDocumentOutline.m in Sources */,
-				F7A92D4A21285D15008D718B /* UIImage+Orientation.swift in Sources */,
 				F73F537F1E929C8500F8678D /* CCMore.swift in Sources */,
 				F7D424621F063B82009C9782 /* CTAssetSelectionButton.m in Sources */,
 				F73B4EF71F470D9100BBEE4B /* LangBulgarianModel.cpp in Sources */,
 				F7F54D0C1E5B14C800E19C62 /* MWTapDetectingView.m in Sources */,
 				F7D424631F063B82009C9782 /* CTAssetSelectionLabel.m in Sources */,
 				F7B1FBC61E72E3D1001781FE /* SwiftModalWebVC.swift in Sources */,
+				F780854F212936EE00014635 /* AVCaptureVideoOrientation+Utils.swift in Sources */,
 				F7A5541F204EF8AF008468EC /* TOScrollBar.m in Sources */,
 				F7A321651E9E37960069AD1B /* CCActivity.m in Sources */,
 				F762CB0C1EACB66200B38484 /* XLFormSectionDescriptor.m in Sources */,
@@ -4027,13 +4028,12 @@
 				F762CB861EACB81000B38484 /* RECommonFunctions.m in Sources */,
 				F750374F1DBFA91A008FB480 /* NSArray+PureLayout.m in Sources */,
 				F77B0E141D118A16002130FE /* CCError.m in Sources */,
+				F780854E212936EE00014635 /* ScannerViewController.swift in Sources */,
 				F73B4F131F470D9100BBEE4B /* nsUniversalDetector.cpp in Sources */,
 				F7B0C1751EE839A30033AC24 /* NCAutoUpload.m in Sources */,
 				F77B0E161D118A16002130FE /* AFViewShaker.m in Sources */,
 				F73B4F111F470D9100BBEE4B /* nsSBCSGroupProber.cpp in Sources */,
 				F7D424641F063B82009C9782 /* CTAssetsGridSelectedView.m in Sources */,
-				F7A92D5121285D15008D718B /* RectangleDetector.swift in Sources */,
-				F7A92D4B21285D15008D718B /* UIImage+Utils.swift in Sources */,
 				F738E8421F90FFD100F95C8E /* NCManageEndToEndEncryption.m in Sources */,
 				F73B4F091F470D9100BBEE4B /* nsEUCKRProber.cpp in Sources */,
 				F7D424711F063B82009C9782 /* CTAssetsViewControllerTransition.m in Sources */,
@@ -4046,7 +4046,8 @@
 				F7D423871F0596C6009C9782 /* ReaderThumbsView.m in Sources */,
 				F77B0E201D118A16002130FE /* CCShareUserOC.m in Sources */,
 				F7B1FBCA1E72E3D1001781FE /* SwiftWebVCActivitySafari.swift in Sources */,
-				F7A92D5521285D15008D718B /* Transformable.swift in Sources */,
+				F780855C212936EE00014635 /* QuadrilateralView.swift in Sources */,
+				F7808558212936EE00014635 /* EditScanViewController.swift in Sources */,
 				F7F54D0A1E5B14C800E19C62 /* MWPhotoBrowser.m in Sources */,
 				F720E01F1E48C73E001A4B9E /* CCActions.swift in Sources */,
 				F762CB081EACB66200B38484 /* XLFormOptionsViewController.m in Sources */,
@@ -4065,7 +4066,6 @@
 				F7A92D65212869F4008D718B /* FilePathConvertible.swift in Sources */,
 				F72D1007210B6882009C96B7 /* NCPushNotificationEncryption.m in Sources */,
 				F70022D11EC4C9100080073F /* OCUserProfile.m in Sources */,
-				F7A92D4021285D15008D718B /* CaptureSessionManager.swift in Sources */,
 				F73B4EF61F470D9100BBEE4B /* LangArabicModel.cpp in Sources */,
 				F7CA1ED420E7E3FE002CC65E /* PKPendingView.m in Sources */,
 				F73B4F0B1F470D9100BBEE4B /* nsGB2312Prober.cpp in Sources */,
@@ -4079,9 +4079,9 @@
 				F77B0E311D118A16002130FE /* CCExifGeo.m in Sources */,
 				F7A92D62212869F4008D718B /* DPIType.swift in Sources */,
 				F7D4246B1F063B82009C9782 /* CTAssetsPageView.m in Sources */,
+				F7808554212936EE00014635 /* UIImage+Orientation.swift in Sources */,
 				F73B4F0E1F470D9100BBEE4B /* nsMBCSGroupProber.cpp in Sources */,
 				F78964AE1EBB576C00403E13 /* JDStatusBarStyle.m in Sources */,
-				F7A92D4721285D15008D718B /* CGAffineTransform+Utils.swift in Sources */,
 				F7EC9CBC21185F2000F1C5CE /* CCMedia.m in Sources */,
 				F7D423831F0596C6009C9782 /* ReaderThumbFetch.m in Sources */,
 				F73B4F171F470D9100BBEE4B /* uchardet.cpp in Sources */,
@@ -4089,7 +4089,6 @@
 				F7D4237A1F0596C6009C9782 /* ReaderConstants.m in Sources */,
 				F73B4F121F470D9100BBEE4B /* nsSJISProber.cpp in Sources */,
 				F762CAFF1EACB66200B38484 /* XLFormPickerCell.m in Sources */,
-				F7A92D4521285D15008D718B /* AVCaptureVideoOrientation+Utils.swift in Sources */,
 				F7A321AD1E9E6AD50069AD1B /* CCAdvanced.m in Sources */,
 				F710E8101EF95C9C00DC2427 /* CCIntro.m in Sources */,
 				F77B0E411D118A16002130FE /* CCSplit.m in Sources */,
@@ -4106,9 +4105,11 @@
 				F77B0E541D118A16002130FE /* CCMove.m in Sources */,
 				F7A5541E204EF8AF008468EC /* TOScrollBarGestureRecognizer.m in Sources */,
 				F70022E61EC4C9100080073F /* OCXMLServerErrorsParser.m in Sources */,
+				F780855D212936EE00014635 /* Quadrilateral.swift in Sources */,
 				F762CB171EACB66200B38484 /* XLFormRegexValidator.m in Sources */,
 				F73CC0691E813DFF006E3047 /* BKPasscodeDummyViewController.m in Sources */,
 				F762CB1A1EACB66200B38484 /* XLForm.m in Sources */,
+				F780855A212936EE00014635 /* Error.swift in Sources */,
 				F73B4EFC1F470D9100BBEE4B /* LangGreekModel.cpp in Sources */,
 				F762CB051EACB66200B38484 /* XLFormTextFieldCell.m in Sources */,
 				F7B4F1CB1F44356F00B53B42 /* NCUchardet.m in Sources */,
@@ -4117,6 +4118,8 @@
 				F7D4237D1F0596C6009C9782 /* ReaderContentView.m in Sources */,
 				F73B4EFA1F470D9100BBEE4B /* LangFrenchModel.cpp in Sources */,
 				F7D4245D1F063B82009C9782 /* CTAssetCollectionViewCell.m in Sources */,
+				F7808559212936EE00014635 /* EditScanCornerView.swift in Sources */,
+				F7808550212936EE00014635 /* CGPoint+Utils.swift in Sources */,
 				F7D4245E1F063B82009C9782 /* CTAssetCollectionViewController.m in Sources */,
 				F762CAF91EACB66200B38484 /* XLFormCheckCell.m in Sources */,
 				F7BE6E2F1D2D5C3B00106933 /* CCQuickActions.m in Sources */,
@@ -4151,7 +4154,6 @@
 				F7D423861F0596C6009C9782 /* ReaderThumbRequest.m in Sources */,
 				F73B4EF51F470D9100BBEE4B /* JpCntx.cpp in Sources */,
 				F7D4246A1F063B82009C9782 /* CTAssetsNavigationController.m in Sources */,
-				F7A92D5321285D15008D718B /* Quadrilateral.swift in Sources */,
 				F78071091EDAB65800EAFFF6 /* NSNotificationCenter+MainThread.m in Sources */,
 				F76B3CCE1EAE01BD00921AC9 /* NCBrand.swift in Sources */,
 				F7B1FBC91E72E3D1001781FE /* SwiftWebVCActivityChrome.swift in Sources */,
@@ -4159,17 +4161,16 @@
 				F7BF1B431D51E893000854F6 /* CCLogin.m in Sources */,
 				F70022FB1EC4C9100080073F /* NSString+Encode.m in Sources */,
 				F75037511DBFA91A008FB480 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				F7A92D4C21285D15008D718B /* CIRectangleFeature+Utils.swift in Sources */,
 				F762CAFA1EACB66200B38484 /* XLFormDateCell.m in Sources */,
 				F70022B91EC4C9100080073F /* OCCommunication.m in Sources */,
 				F762CB181EACB66200B38484 /* XLFormValidationStatus.m in Sources */,
 				F73B4EF91F470D9100BBEE4B /* LangEsperantoModel.cpp in Sources */,
 				F77B0E8F1D118A16002130FE /* CCSection.m in Sources */,
-				F7A92D4D21285D15008D718B /* ZoomGestureController.swift in Sources */,
 				F7CA1ED720E7E3FE002CC65E /* PKDownloadButton.m in Sources */,
 				F72AAECB1E5C60C700BB17E1 /* AHKActionSheetViewController.m in Sources */,
 				F77B0E921D118A16002130FE /* CCCellMainTransfer.m in Sources */,
 				F7659A391DC0B737004860C4 /* iRate.m in Sources */,
+				F7808555212936EE00014635 /* UIImage+Utils.swift in Sources */,
 				F7B1FBC81E72E3D1001781FE /* SwiftWebVCActivity.swift in Sources */,
 				F7D424741F063B82009C9782 /* CTAssetThumbnailView.m in Sources */,
 				F77B0E981D118A16002130FE /* CCManageAccount.m in Sources */,
@@ -4179,40 +4180,39 @@
 				F7D424531F063B82009C9782 /* NSBundle+CTAssetsPickerController.m in Sources */,
 				F77B0E9B1D118A16002130FE /* CCBKPasscode.m in Sources */,
 				F7659A271DC0B726004860C4 /* EAIntroPage.m in Sources */,
-				F7A92D4221285D15008D718B /* CloseButton.swift in Sources */,
 				F7A92D61212869F4008D718B /* PDFPageRenderable.swift in Sources */,
 				F7169A1D1EE590930086BD69 /* NCSharesCell.m in Sources */,
 				F77B0EA61D118A16002130FE /* NSString+TruncateToWidth.m in Sources */,
 				F7D424651F063B82009C9782 /* CTAssetsGridView.m in Sources */,
 				F70022C21EC4C9100080073F /* OCNotifications.m in Sources */,
 				F70022BF1EC4C9100080073F /* OCFileDto.m in Sources */,
-				F7A92D4121285D15008D718B /* ShutterButton.swift in Sources */,
 				F7CA1ED020E7E3FE002CC65E /* UIImage+PKDownloadButton.m in Sources */,
 				F73B4F011F470D9100BBEE4B /* LangThaiModel.cpp in Sources */,
+				F7808551212936EE00014635 /* CGAffineTransform+Utils.swift in Sources */,
 				F70022DD1EC4C9100080073F /* OCWebDAVClient.m in Sources */,
 				F73B4F001F470D9100BBEE4B /* LangSpanishModel.cpp in Sources */,
 				F70022BC1EC4C9100080073F /* OCExternalSites.m in Sources */,
-				F7A92D3D21285D15008D718B /* ImageScannerController.swift in Sources */,
 				F73CC07B1E813DFF006E3047 /* BKTouchIDManager.m in Sources */,
 				F7A92D64212869F4008D718B /* PDFGenerator.swift in Sources */,
 				F762CB031EACB66200B38484 /* XLFormStepCounterCell.m in Sources */,
 				F762CAF71EACB66200B38484 /* XLFormBaseCell.m in Sources */,
+				F7808549212936EE00014635 /* ImageScannerController.swift in Sources */,
 				F70022E01EC4C9100080073F /* OCXMLListParser.m in Sources */,
 				F7A92D66212869F4008D718B /* PDFPage.swift in Sources */,
 				F70022B31EC4C9100080073F /* OCActivity.m in Sources */,
 				F70022D41EC4C9100080073F /* NSDate+ISO8601.m in Sources */,
 				F7D424731F063B82009C9782 /* CTAssetThumbnailStacks.m in Sources */,
+				F7808557212936EE00014635 /* ZoomGestureController.swift in Sources */,
 				F78964AD1EBB576C00403E13 /* JDStatusBarNotification.m in Sources */,
 				F762CB151EACB66200B38484 /* XLFormRowNavigationAccessoryView.m in Sources */,
+				F7808552212936EE00014635 /* CGRect+Utils.swift in Sources */,
 				F77B0EB61D118A16002130FE /* MBProgressHUD.m in Sources */,
 				F7D4246D1F063B82009C9782 /* CTAssetsPickerAccessDeniedView.m in Sources */,
 				F762CB0A1EACB66200B38484 /* XLFormDescriptor.m in Sources */,
 				F7D4238C1F0596C6009C9782 /* UIXToolbarView.m in Sources */,
 				F726EEEC1FED1C820030B9C8 /* NCEndToEndInitialize.swift in Sources */,
 				F70CAE3A1F8CF31A008125FD /* NCEndToEndEncryption.m in Sources */,
-				F7A92D4F21285D15008D718B /* EditScanCornerView.swift in Sources */,
 				F73B4F0C1F470D9100BBEE4B /* nsHebrewProber.cpp in Sources */,
-				F7A92D4E21285D15008D718B /* EditScanViewController.swift in Sources */,
 				F762CAFB1EACB66200B38484 /* XLFormDatePickerCell.m in Sources */,
 				F762CB0F1EACB66200B38484 /* NSObject+XLFormAdditions.m in Sources */,
 				F7B2DEF01F976854007CF4D2 /* NYMnemonic.m in Sources */,
@@ -4223,14 +4223,12 @@
 				F7D424551F063B82009C9782 /* NSIndexSet+CTAssetsPickerController.m in Sources */,
 				F7A92D63212869F4008D718B /* PDFPassword.swift in Sources */,
 				F7A321551E9E2A070069AD1B /* CCFavorites.m in Sources */,
-				F7A92D4821285D15008D718B /* CGRect+Utils.swift in Sources */,
 				F73B4F031F470D9100BBEE4B /* LangVietnameseModel.cpp in Sources */,
 				F73B4F021F470D9100BBEE4B /* LangTurkishModel.cpp in Sources */,
 				F7F54D0B1E5B14C800E19C62 /* MWTapDetectingImageView.m in Sources */,
 				F7D423821F0596C6009C9782 /* ReaderThumbCache.m in Sources */,
 				F70022A71EC4C9100080073F /* AFSecurityPolicy.m in Sources */,
 				F78964AF1EBB576C00403E13 /* JDStatusBarView.m in Sources */,
-				F7A92D4621285D15008D718B /* CGPoint+Utils.swift in Sources */,
 				F7CA1ED220E7E3FE002CC65E /* PKCircleView.m in Sources */,
 				F7F54D0D1E5B14C800E19C62 /* MWZoomingScrollView.m in Sources */,
 				F762CB0B1EACB66200B38484 /* XLFormRowDescriptor.m in Sources */,
@@ -4243,6 +4241,7 @@
 				F7D423811F0596C6009C9782 /* ReaderMainToolbar.m in Sources */,
 				F762CB131EACB66200B38484 /* XLFormRightDetailCell.m in Sources */,
 				F7CA1ED820E7E3FE002CC65E /* PKBorderedButton.m in Sources */,
+				F780854C212936EE00014635 /* ShutterButton.swift in Sources */,
 				F7D4237B1F0596C6009C9782 /* ReaderContentPage.m in Sources */,
 				F73B4F0A1F470D9100BBEE4B /* nsEUCTWProber.cpp in Sources */,
 				F762CB871EACB81000B38484 /* REMenu.m in Sources */,
@@ -4250,10 +4249,12 @@
 				F762CB161EACB66200B38484 /* XLFormTextView.m in Sources */,
 				F7D424681F063B82009C9782 /* CTAssetsGridViewFooter.m in Sources */,
 				F75AC2431F1F62450073EC19 /* NCManageAutoUploadFileName.swift in Sources */,
-				F7A92D5221285D15008D718B /* QuadrilateralView.swift in Sources */,
+				F7808553212936EE00014635 /* Array+Utils.swift in Sources */,
+				F780855E212936EE00014635 /* ReviewViewController.swift in Sources */,
 				F7D424701F063B82009C9782 /* CTAssetsPickerNoAssetsView.m in Sources */,
 				F7D424591F063B82009C9782 /* PHImageManager+CTAssetsPickerController.m in Sources */,
 				F7CA1ED620E7E3FE002CC65E /* CALayer+PKDownloadButtonAnimations.m in Sources */,
+				F780855F212936EE00014635 /* Transformable.swift in Sources */,
 				F7ECBA6D1E239DCD003E6328 /* CCCreateCloud.swift in Sources */,
 				F70022FE1EC4C9100080073F /* UtilsFramework.m in Sources */,
 				F7D424561F063B82009C9782 /* NSNumberFormatter+CTAssetsPickerController.m in Sources */,
@@ -4272,7 +4273,6 @@
 				F77B0ED51D118A16002130FE /* PHAsset+Utility.m in Sources */,
 				F73B4EFD1F470D9100BBEE4B /* LangHebrewModel.cpp in Sources */,
 				F70022CE1EC4C9100080073F /* OCShareUser.m in Sources */,
-				F7A92D5021285D15008D718B /* Error.swift in Sources */,
 				F77B0ED91D118A16002130FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
