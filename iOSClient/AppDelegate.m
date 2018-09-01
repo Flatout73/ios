@@ -1049,7 +1049,7 @@
             
     } else {
     
-        [NCBrandColor sharedInstance].brand = [NCBrandColor sharedInstance].customer;
+        //[NCBrandColor sharedInstance].brand = [NCBrandColor sharedInstance].customer;
         [NCBrandColor sharedInstance].brandElement = [NCBrandColor sharedInstance].customer;
         [NCBrandColor sharedInstance].brandText = [NCBrandColor sharedInstance].customerText;
     }
@@ -1592,6 +1592,10 @@
         
     NSArray *splitedUrl = [url.path componentsSeparatedByString:@"/"];
     self.fileNameUpload = [NSString stringWithFormat:@"%@",[splitedUrl objectAtIndex:([splitedUrl count]-1)]];
+    
+    if ([url.absoluteString.lowercaseString isEqual:@"hsenextcloud://"]) {
+        return YES;
+    }
     
     if (self.activeAccount) {
         

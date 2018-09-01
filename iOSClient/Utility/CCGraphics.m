@@ -464,7 +464,7 @@ Color difference is determined by the following formula:
     }
             
     
-    [NCBrandColor sharedInstance].brand = newColor;
+    //[NCBrandColor sharedInstance].brand = newColor;
     [NCBrandColor sharedInstance].brandElement = newColorElement;
     [NCBrandColor sharedInstance].brandText = newColorText;
 }

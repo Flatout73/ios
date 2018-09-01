@@ -53,6 +53,14 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
+			<string>ru.hse</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>HSENextcloud</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
 			<string>path</string>
 			<key>CFBundleURLSchemes</key>
 			<array>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B370968321320CE1007899E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B370968221320CE1007899E3 /* LaunchScreen.storyboard */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222E1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
@@ -680,6 +681,7 @@
 		08EA97451E6554FC004C83FA /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
 		08EA97461E6554FC004C83FA /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		08EA97471E6554FC004C83FA /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		B370968221320CE1007899E3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F700222B1EC479840080073F /* Custom.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Custom.xcassets; sourceTree = "<group>"; };
 		F70022591EC4C9100080073F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		F700225A1EC4C9100080073F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -2766,6 +2768,7 @@
 				F73CB5771ED46807005F2A5A /* NCBridgeSwift.h */,
 				F76B3CCD1EAE01BD00921AC9 /* NCBrand.swift */,
 				F76F23331ED4603700C40023 /* LaunchScreen.xib */,
+				B370968221320CE1007899E3 /* LaunchScreen.storyboard */,
 			);
 			path = Brand;
 			sourceTree = "<group>";
@@ -3297,7 +3300,7 @@
 				ORGANIZATIONNAME = TWS;
 				TargetAttributes = {
 					F71459B41D12E3B700CAFEEC = {
-						DevelopmentTeam = 6JLRKY9ZV7;
+						DevelopmentTeam = 6QTSV772M5;
 						LastSwiftMigration = 0900;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3310,7 +3313,7 @@
 					};
 					F74344111E1264ED001CC831 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6JLRKY9ZV7;
+						DevelopmentTeam = 6QTSV772M5;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -3324,20 +3327,29 @@
 					};
 					F743441F1E1264EE001CC831 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6JLRKY9ZV7;
+						DevelopmentTeam = 6QTSV772M5;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
 								enabled = 1;
 							};
 						};
 					};
 					F77B0DEB1D118A16002130FE = {
-						DevelopmentTeam = 6JLRKY9ZV7;
+						DevelopmentTeam = 6QTSV772M5;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -3557,6 +3569,7 @@
 				F7D4233F1F0596AC009C9782 /* Reader-Email@2x.png in Resources */,
 				F73B4EF11F470D9100BBEE4B /* EUCKRFreq.tab in Resources */,
 				F75797AE1E81356C00187A1B /* CTAssetsPicker.strings in Resources */,
+				B370968321320CE1007899E3 /* LaunchScreen.storyboard in Resources */,
 				F774DF111FCC26BE002AF9FC /* iTunesArtwork@3x.png in Resources */,
 				F762CB961EACB84400B38484 /* icon-error@2x.png in Resources */,
 				F7D4234A1F0596AC009C9782 /* Reader-Print.png in Resources */,
@@ -4461,7 +4474,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4483,7 +4496,7 @@
 					"-Obj-C",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Share/Share-Bridging-Header.h";
@@ -4507,7 +4520,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4529,7 +4542,7 @@
 					"-Obj-C",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Share/Share-Bridging-Header.h";
@@ -4551,7 +4564,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4568,7 +4581,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"Libraries external\"/**";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Picker;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.Picker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG NC";
@@ -4591,7 +4604,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4607,7 +4620,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"Libraries external\"/**";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.Picker;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.Picker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = NC;
@@ -4630,7 +4643,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4647,7 +4660,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"Libraries external\"/**";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.PickerFileProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.PickerFileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG NC";
@@ -4671,7 +4684,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)\"/Libraries external/Realm\"",
@@ -4687,7 +4700,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"Libraries external\"/**";
-				PRODUCT_BUNDLE_IDENTIFIER = it.twsweb.Nextcloud.PickerFileProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud.PickerFileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = NC;
@@ -4710,7 +4723,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: it.twsweb.Nextcloud";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4734,7 +4747,7 @@
 					"-all_load",
 				);
 				OTHER_SWIFT_FLAGS = "-DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4761,7 +4774,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = 6JLRKY9ZV7;
+				DEVELOPMENT_TEAM = 6QTSV772M5;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4784,7 +4797,7 @@
 					"-Obj-C",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "it.twsweb.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hse.Nextcloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

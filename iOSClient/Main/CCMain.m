@@ -580,24 +580,26 @@
                 _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navigationLogoOffline"]];
             } else {
                 
-                if ([NCBrandOptions sharedInstance].use_themingColor) {
-                
-                    tableCapabilities *capabilities = [[NCManageDatabase sharedInstance] getCapabilites];
-                    
-                    if ([capabilities.themingColor isEqualToString:@"#FFFFFF"])
-                        _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"navigationLogo"] color:[UIColor blackColor]]];
-                    else
-                        _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"navigationLogo"] color:[UIColor whiteColor]]];
-                } else {
-                    
+//                if ([NCBrandOptions sharedInstance].use_themingColor) {
+//
+//                    tableCapabilities *capabilities = [[NCManageDatabase sharedInstance] getCapabilites];
+//                
+//                    if ([capabilities.themingColor isEqualToString:@"#FFFFFF"])
+//                        _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"navigationLogo"] color:[UIColor blackColor]]];
+//                    else
+//                        _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"navigationLogo"] color:[UIColor whiteColor]]];
+//                } else {
+//                
                     _ImageTitleHomeCryptoCloud = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navigationLogo"]];
-                }
+                //}
             }
             
             [_ImageTitleHomeCryptoCloud setUserInteractionEnabled:YES];
             UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(menuLogo:)];
             [singleTap setNumberOfTapsRequired:1];
             [_ImageTitleHomeCryptoCloud addGestureRecognizer:singleTap];
+            
+            _ImageTitleHomeCryptoCloud.contentMode = UIViewContentModeScaleAspectFit;
             
             self.navigationItem.titleView = _ImageTitleHomeCryptoCloud;
             

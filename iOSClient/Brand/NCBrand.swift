@@ -34,7 +34,7 @@ class NCBrandColor: NSObject {
     @objc public let customer:              UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)    // BLU NC : #0082c9
     @objc public var customerText:          UIColor = .white
     
-    @objc public var brand:                 UIColor                                                                                 // don't touch me
+    @objc public let brand:                 UIColor = UIColor(red: 0.0/255.0, green: 51.0/255.0, blue: 153.0/255.0, alpha: 1.0)                                                                                // don't touch me
     @objc public var brandElement:          UIColor                                                                                 // don't touch me
     @objc public var brandText:             UIColor                                                                                 // don't touch me
 
@@ -51,7 +51,7 @@ class NCBrandColor: NSObject {
     @objc public let yellowFavorite:        UIColor = UIColor(red: 248.0/255.0, green: 205.0/255.0, blue: 70.0/255.0, alpha: 1.0)
 
     override init() {
-        self.brand = self.customer
+        //self.brand = self.customer
         self.brandElement = self.customer
         self.brandText = self.customerText
     }
@@ -69,8 +69,8 @@ class NCBrandColor: NSObject {
         return instance
     }()
     
-    @objc public let brand:                           String = "Nextcloud"
-    @objc public let mailMe:                          String = "ios@nextcloud.com"
+    @objc public let brand:                           String = "HSE"
+    @objc public let mailMe:                          String = "ios@hse.ru"
     @objc public let textCopyrightNextcloudiOS:       String = "Nextcloud for iOS %@ © 2018 T.W.S. Inc."
     @objc public let textCopyrightNextcloudServer:    String = "Nextcloud Server %@"
     @objc public let loginBaseUrl:                    String = "https://cloud.twsweb.it"
@@ -87,7 +87,7 @@ class NCBrandColor: NSObject {
     @objc public var folderDefaultAutoUpload:         String = "Photos"
     
     // Capabilities Group
-    @objc public let capabilitiesGroups:              String = "group.it.twsweb.Crypto-Cloud"
+    @objc public let capabilitiesGroups:              String = "group.ru.hse.Crypto-Cloud"
     
     // Options
     @objc public let use_login_web_personalized:      Bool = false                                              // Don't touch me !!
