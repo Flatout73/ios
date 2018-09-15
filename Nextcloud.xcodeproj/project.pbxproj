@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B337C878214D7D8F006D340A /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337C877214D7D8F006D340A /* KeychainService.swift */; };
 		B370968321320CE1007899E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B370968221320CE1007899E3 /* LaunchScreen.storyboard */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
@@ -681,6 +682,7 @@
 		08EA97451E6554FC004C83FA /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
 		08EA97461E6554FC004C83FA /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		08EA97471E6554FC004C83FA /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		B337C877214D7D8F006D340A /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		B370968221320CE1007899E3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F700222B1EC479840080073F /* Custom.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Custom.xcassets; sourceTree = "<group>"; };
 		F70022591EC4C9100080073F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -2719,6 +2721,7 @@
 				F7BF1B3F1D51E893000854F6 /* CCLogin.h */,
 				F7BF1B401D51E893000854F6 /* CCLogin.m */,
 				F7B3A4ED1E97818A000DACE8 /* CCLoginWeb.swift */,
+				B337C877214D7D8F006D340A /* KeychainService.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -3848,6 +3851,7 @@
 				F73B4F0D1F470D9100BBEE4B /* nsLatin1Prober.cpp in Sources */,
 				F77B0DF51D118A16002130FE /* CCUtility.m in Sources */,
 				F762CB071EACB66200B38484 /* XLFormOptionsObject.m in Sources */,
+				B337C878214D7D8F006D340A /* KeychainService.swift in Sources */,
 				F7C525A01E3B48B700FFE02C /* CCNotification.swift in Sources */,
 				F7F54D0E1E5B14C800E19C62 /* UIImage+MWPhotoBrowser.m in Sources */,
 				F7F54D091E5B14C800E19C62 /* MWPhoto.m in Sources */,

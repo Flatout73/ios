@@ -88,8 +88,14 @@
     _password.tintColor = [NCBrandColor sharedInstance].customerText;
     _password.placeholder = NSLocalizedString(@"_password_", nil);
     [_password setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
+
     [self.password setFont:[UIFont systemFontOfSize:13]];
     [self.password setDelegate:self];
+    
+    Credentials* cred = [KeychainService getLoginFromKeychain];
+    
+    [self.user setText: cred.login];
+    [self.password setText: cred.password];
 
     // Login
     [self.login setTitle:NSLocalizedString(@"_login_", nil) forState:UIControlStateNormal];
