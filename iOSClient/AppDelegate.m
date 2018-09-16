@@ -134,6 +134,7 @@
     
     // Verify upgrade
     if ([self upgrade]) {
+        
     
         // Set account, if no exists clear all
         tableAccount *account = [[NCManageDatabase sharedInstance] getAccountActive];
@@ -328,48 +329,48 @@
     @synchronized (self) {
 
         // only for personalized LoginWeb [customer]
-        if ([NCBrandOptions sharedInstance].use_login_web_personalized) {
-            
-            if (_activeLoginWeb == nil) {
-                
-                _activeLoginWeb = [CCLoginWeb new];
-                _activeLoginWeb.delegate = delegate;
-                _activeLoginWeb.loginType = loginType;
-                _activeLoginWeb.urlBase = [[NCBrandOptions sharedInstance] loginBaseUrl];
-                
-                dispatch_async(dispatch_get_main_queue(), ^ {
-                    [_activeLoginWeb presentModalWithDefaultTheme:delegate];
-                });
-            }
-            return;
-        }
+//        if ([NCBrandOptions sharedInstance].use_login_web_personalized) {
+//
+//            if (_activeLoginWeb == nil) {
+//
+//                _activeLoginWeb = [CCLoginWeb new];
+//                _activeLoginWeb.delegate = delegate;
+//                _activeLoginWeb.loginType = loginType;
+//                _activeLoginWeb.urlBase = [[NCBrandOptions sharedInstance] loginBaseUrl];
+//
+//                dispatch_async(dispatch_get_main_queue(), ^ {
+//                    [_activeLoginWeb presentModalWithDefaultTheme:delegate];
+//                });
+//            }
+//            return;
+//        }
         
         // ------------------- Nextcloud -------------------------
         //
         
         // Login flow : LoginWeb
-        if (loginType == loginModifyPasswordUser) {
-            tableAccount *account = [[NCManageDatabase sharedInstance] getAccountActive];
-            if (account.loginFlow)
-                loginWeb = YES;
-        }
-            
-        if (loginWeb) {
-            
-            if (_activeLoginWeb == nil) {
-                
-                _activeLoginWeb = [CCLoginWeb new];
-                _activeLoginWeb.delegate = delegate;
-                _activeLoginWeb.loginType = loginType;
-                _activeLoginWeb.urlBase = self.activeUrl;
-
-                dispatch_async(dispatch_get_main_queue(), ^ {
-                    [_activeLoginWeb presentModalWithDefaultTheme:delegate];
-                });
-            }
-            
-        } else {
-            
+//        if (loginType == loginModifyPasswordUser) {
+//            tableAccount *account = [[NCManageDatabase sharedInstance] getAccountActive];
+//            if (account.loginFlow)
+//                loginWeb = YES;
+//        }
+//
+//        if (loginWeb) {
+//
+//            if (_activeLoginWeb == nil) {
+//
+//                _activeLoginWeb = [CCLoginWeb new];
+//                _activeLoginWeb.delegate = delegate;
+//                _activeLoginWeb.loginType = loginType;
+//                _activeLoginWeb.urlBase = self.activeUrl;
+//
+//                dispatch_async(dispatch_get_main_queue(), ^ {
+//                    [_activeLoginWeb presentModalWithDefaultTheme:delegate];
+//                });
+//            }
+//
+//        } else {
+//
             if (_activeLogin == nil) {
                 
                 _activeLogin = [[UIStoryboard storyboardWithName:@"CCLogin" bundle:nil] instantiateViewControllerWithIdentifier:@"CCLoginNextcloud"];
@@ -380,7 +381,7 @@
                     [delegate presentViewController:_activeLogin animated:YES completion:nil];
                 });
             }
-        }
+ //       }
         
     }
 }

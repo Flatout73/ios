@@ -290,18 +290,18 @@
                 [self serverStatus:data];
                 
                 // Login Flow
-                if (_user.hidden && _password.hidden && versionMajor >= k_flow_version_available) {
-                    
-                    appDelegate.activeLoginWeb = [CCLoginWeb new];
-                    appDelegate.activeLoginWeb.loginType = _loginType;
-                    appDelegate.activeLoginWeb.delegate = self;
-                    appDelegate.activeLoginWeb.urlBase = self.baseUrl.text;
-                    
-                    [appDelegate.activeLoginWeb presentModalWithDefaultTheme:self];
-                }
+//                if (_user.hidden && _password.hidden && versionMajor >= k_flow_version_available) {
+//
+//                    appDelegate.activeLoginWeb = [CCLoginWeb new];
+//                    appDelegate.activeLoginWeb.loginType = _loginType;
+//                    appDelegate.activeLoginWeb.delegate = self;
+//                    appDelegate.activeLoginWeb.urlBase = self.baseUrl.text;
+//
+//                    [appDelegate.activeLoginWeb presentModalWithDefaultTheme:self];
+//                }
                 
                 // NO Login Flow available
-                if (versionMajor < k_flow_version_available) {
+   //             if (versionMajor < k_flow_version_available) {
                     
                     [self.loginTypeView setHidden:YES];
 
@@ -311,7 +311,7 @@
                     _password.hidden = NO;
                     
                     [_user becomeFirstResponder];
-                }
+   //             }
             }
         });
     }];
