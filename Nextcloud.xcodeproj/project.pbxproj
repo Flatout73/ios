@@ -16,6 +16,54 @@
 		B3311E4421582AEA00EC587D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3311E3C215828AF00EC587D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B337C878214D7D8F006D340A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B370968321320CE1007899E3 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		B3E251DF21582C6C00B6CCCD /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251AF21582C6300B6CCCD /* es.lproj */; };
+		B3E251E021582C6C00B6CCCD /* nb-NO.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B021582C6300B6CCCD /* nb-NO.lproj */; };
+		B3E251E121582C6C00B6CCCD /* sq.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B121582C6300B6CCCD /* sq.lproj */; };
+		B3E251E221582C6C00B6CCCD /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B221582C6400B6CCCD /* da.lproj */; };
+		B3E251E321582C6C00B6CCCD /* ja_JP.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B321582C6400B6CCCD /* ja_JP.lproj */; };
+		B3E251E421582C6C00B6CCCD /* is.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B421582C6400B6CCCD /* is.lproj */; };
+		B3E251E521582C6C00B6CCCD /* es-419.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B521582C6400B6CCCD /* es-419.lproj */; };
+		B3E251E621582C6C00B6CCCD /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B621582C6400B6CCCD /* pt-PT.lproj */; };
+		B3E251E721582C6C00B6CCCD /* es-UY.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B721582C6500B6CCCD /* es-UY.lproj */; };
+		B3E251E821582C6C00B6CCCD /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B821582C6500B6CCCD /* ko.lproj */; };
+		B3E251E921582C6C00B6CCCD /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251B921582C6500B6CCCD /* el.lproj */; };
+		B3E251EA21582C6C00B6CCCD /* es-MX.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BA21582C6500B6CCCD /* es-MX.lproj */; };
+		B3E251EB21582C6C00B6CCCD /* es-GT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BB21582C6500B6CCCD /* es-GT.lproj */; };
+		B3E251EC21582C6C00B6CCCD /* es-PR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BC21582C6600B6CCCD /* es-PR.lproj */; };
+		B3E251ED21582C6C00B6CCCD /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BD21582C6600B6CCCD /* de.lproj */; };
+		B3E251EE21582C6D00B6CCCD /* es-PY.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BE21582C6600B6CCCD /* es-PY.lproj */; };
+		B3E251EF21582C6D00B6CCCD /* es-CR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251BF21582C6600B6CCCD /* es-CR.lproj */; };
+		B3E251F021582C6D00B6CCCD /* es-AR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C021582C6600B6CCCD /* es-AR.lproj */; };
+		B3E251F121582C6D00B6CCCD /* es-CO.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C121582C6600B6CCCD /* es-CO.lproj */; };
+		B3E251F221582C6D00B6CCCD /* es-EC.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C221582C6700B6CCCD /* es-EC.lproj */; };
+		B3E251F321582C6D00B6CCCD /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C321582C6700B6CCCD /* fa.lproj */; };
+		B3E251F421582C6D00B6CCCD /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C421582C6700B6CCCD /* ca.lproj */; };
+		B3E251F521582C6D00B6CCCD /* fi-FI.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C521582C6700B6CCCD /* fi-FI.lproj */; };
+		B3E251F621582C6D00B6CCCD /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C621582C6700B6CCCD /* fr.lproj */; };
+		B3E251F721582C6D00B6CCCD /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C721582C6700B6CCCD /* pl.lproj */; };
+		B3E251F821582C6D00B6CCCD /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C821582C6700B6CCCD /* ru.lproj */; };
+		B3E251F921582C6D00B6CCCD /* sk-SK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251C921582C6800B6CCCD /* sk-SK.lproj */; };
+		B3E251FA21582C6D00B6CCCD /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CA21582C6800B6CCCD /* it.lproj */; };
+		B3E251FB21582C6D00B6CCCD /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CB21582C6800B6CCCD /* pt-BR.lproj */; };
+		B3E251FC21582C6D00B6CCCD /* sr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CC21582C6800B6CCCD /* sr.lproj */; };
+		B3E251FD21582C6D00B6CCCD /* es-DO.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CD21582C6800B6CCCD /* es-DO.lproj */; };
+		B3E251FE21582C6D00B6CCCD /* es-HN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CE21582C6800B6CCCD /* es-HN.lproj */; };
+		B3E251FF21582C6D00B6CCCD /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251CF21582C6800B6CCCD /* tr.lproj */; };
+		B3E2520021582C6D00B6CCCD /* en-GB.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D021582C6800B6CCCD /* en-GB.lproj */; };
+		B3E2520121582C6D00B6CCCD /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D121582C6900B6CCCD /* sv.lproj */; };
+		B3E2520221582C6D00B6CCCD /* es-PE.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D221582C6900B6CCCD /* es-PE.lproj */; };
+		B3E2520321582C6D00B6CCCD /* es-SV.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D321582C6900B6CCCD /* es-SV.lproj */; };
+		B3E2520421582C6D00B6CCCD /* cs-CZ.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D421582C6900B6CCCD /* cs-CZ.lproj */; };
+		B3E2520521582C6D00B6CCCD /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D521582C6A00B6CCCD /* hu.lproj */; };
+		B3E2520621582C6D00B6CCCD /* es-CL.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D621582C6A00B6CCCD /* es-CL.lproj */; };
+		B3E2520721582C6D00B6CCCD /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D721582C6A00B6CCCD /* zh-Hans.lproj */; };
+		B3E2520821582C6D00B6CCCD /* zh-Hant-TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D821582C6B00B6CCCD /* zh-Hant-TW.lproj */; };
+		B3E2520921582C6D00B6CCCD /* es-NI.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251D921582C6B00B6CCCD /* es-NI.lproj */; };
+		B3E2520A21582C6D00B6CCCD /* ka-GE.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251DA21582C6B00B6CCCD /* ka-GE.lproj */; };
+		B3E2520B21582C6D00B6CCCD /* es-PA.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251DB21582C6B00B6CCCD /* es-PA.lproj */; };
+		B3E2520C21582C6D00B6CCCD /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251DC21582C6B00B6CCCD /* en.lproj */; };
+		B3E2520D21582C6D00B6CCCD /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251DD21582C6B00B6CCCD /* nl.lproj */; };
+		B3E2520E21582C6D00B6CCCD /* ast.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3E251DE21582C6C00B6CCCD /* ast.lproj */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F70022A11EC4C9100080073F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F700225A1EC4C9100080073F /* AFHTTPSessionManager.m */; };
@@ -665,6 +713,54 @@
 		B3311E3B215828AE00EC587D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		B3311E3C215828AF00EC587D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		B3311E3F2158297B00EC587D /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		B3E251AF21582C6300B6CCCD /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es.lproj; path = "Supporting Files/es.lproj"; sourceTree = "<group>"; };
+		B3E251B021582C6300B6CCCD /* nb-NO.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "nb-NO.lproj"; path = "Supporting Files/nb-NO.lproj"; sourceTree = "<group>"; };
+		B3E251B121582C6300B6CCCD /* sq.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sq.lproj; path = "Supporting Files/sq.lproj"; sourceTree = "<group>"; };
+		B3E251B221582C6400B6CCCD /* da.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = da.lproj; path = "Supporting Files/da.lproj"; sourceTree = "<group>"; };
+		B3E251B321582C6400B6CCCD /* ja_JP.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ja_JP.lproj; path = "Supporting Files/ja_JP.lproj"; sourceTree = "<group>"; };
+		B3E251B421582C6400B6CCCD /* is.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = is.lproj; path = "Supporting Files/is.lproj"; sourceTree = "<group>"; };
+		B3E251B521582C6400B6CCCD /* es-419.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-419.lproj"; path = "Supporting Files/es-419.lproj"; sourceTree = "<group>"; };
+		B3E251B621582C6400B6CCCD /* pt-PT.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "pt-PT.lproj"; path = "Supporting Files/pt-PT.lproj"; sourceTree = "<group>"; };
+		B3E251B721582C6500B6CCCD /* es-UY.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-UY.lproj"; path = "Supporting Files/es-UY.lproj"; sourceTree = "<group>"; };
+		B3E251B821582C6500B6CCCD /* ko.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ko.lproj; path = "Supporting Files/ko.lproj"; sourceTree = "<group>"; };
+		B3E251B921582C6500B6CCCD /* el.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = el.lproj; path = "Supporting Files/el.lproj"; sourceTree = "<group>"; };
+		B3E251BA21582C6500B6CCCD /* es-MX.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-MX.lproj"; path = "Supporting Files/es-MX.lproj"; sourceTree = "<group>"; };
+		B3E251BB21582C6500B6CCCD /* es-GT.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-GT.lproj"; path = "Supporting Files/es-GT.lproj"; sourceTree = "<group>"; };
+		B3E251BC21582C6600B6CCCD /* es-PR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-PR.lproj"; path = "Supporting Files/es-PR.lproj"; sourceTree = "<group>"; };
+		B3E251BD21582C6600B6CCCD /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = de.lproj; path = "Supporting Files/de.lproj"; sourceTree = "<group>"; };
+		B3E251BE21582C6600B6CCCD /* es-PY.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-PY.lproj"; path = "Supporting Files/es-PY.lproj"; sourceTree = "<group>"; };
+		B3E251BF21582C6600B6CCCD /* es-CR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-CR.lproj"; path = "Supporting Files/es-CR.lproj"; sourceTree = "<group>"; };
+		B3E251C021582C6600B6CCCD /* es-AR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-AR.lproj"; path = "Supporting Files/es-AR.lproj"; sourceTree = "<group>"; };
+		B3E251C121582C6600B6CCCD /* es-CO.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-CO.lproj"; path = "Supporting Files/es-CO.lproj"; sourceTree = "<group>"; };
+		B3E251C221582C6700B6CCCD /* es-EC.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-EC.lproj"; path = "Supporting Files/es-EC.lproj"; sourceTree = "<group>"; };
+		B3E251C321582C6700B6CCCD /* fa.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fa.lproj; path = "Supporting Files/fa.lproj"; sourceTree = "<group>"; };
+		B3E251C421582C6700B6CCCD /* ca.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ca.lproj; path = "Supporting Files/ca.lproj"; sourceTree = "<group>"; };
+		B3E251C521582C6700B6CCCD /* fi-FI.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fi-FI.lproj"; path = "Supporting Files/fi-FI.lproj"; sourceTree = "<group>"; };
+		B3E251C621582C6700B6CCCD /* fr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fr.lproj; path = "Supporting Files/fr.lproj"; sourceTree = "<group>"; };
+		B3E251C721582C6700B6CCCD /* pl.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pl.lproj; path = "Supporting Files/pl.lproj"; sourceTree = "<group>"; };
+		B3E251C821582C6700B6CCCD /* ru.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru.lproj; path = "Supporting Files/ru.lproj"; sourceTree = "<group>"; };
+		B3E251C921582C6800B6CCCD /* sk-SK.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "sk-SK.lproj"; path = "Supporting Files/sk-SK.lproj"; sourceTree = "<group>"; };
+		B3E251CA21582C6800B6CCCD /* it.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = it.lproj; path = "Supporting Files/it.lproj"; sourceTree = "<group>"; };
+		B3E251CB21582C6800B6CCCD /* pt-BR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Supporting Files/pt-BR.lproj"; sourceTree = "<group>"; };
+		B3E251CC21582C6800B6CCCD /* sr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sr.lproj; path = "Supporting Files/sr.lproj"; sourceTree = "<group>"; };
+		B3E251CD21582C6800B6CCCD /* es-DO.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-DO.lproj"; path = "Supporting Files/es-DO.lproj"; sourceTree = "<group>"; };
+		B3E251CE21582C6800B6CCCD /* es-HN.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-HN.lproj"; path = "Supporting Files/es-HN.lproj"; sourceTree = "<group>"; };
+		B3E251CF21582C6800B6CCCD /* tr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tr.lproj; path = "Supporting Files/tr.lproj"; sourceTree = "<group>"; };
+		B3E251D021582C6800B6CCCD /* en-GB.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "en-GB.lproj"; path = "Supporting Files/en-GB.lproj"; sourceTree = "<group>"; };
+		B3E251D121582C6900B6CCCD /* sv.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sv.lproj; path = "Supporting Files/sv.lproj"; sourceTree = "<group>"; };
+		B3E251D221582C6900B6CCCD /* es-PE.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-PE.lproj"; path = "Supporting Files/es-PE.lproj"; sourceTree = "<group>"; };
+		B3E251D321582C6900B6CCCD /* es-SV.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-SV.lproj"; path = "Supporting Files/es-SV.lproj"; sourceTree = "<group>"; };
+		B3E251D421582C6900B6CCCD /* cs-CZ.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "cs-CZ.lproj"; path = "Supporting Files/cs-CZ.lproj"; sourceTree = "<group>"; };
+		B3E251D521582C6A00B6CCCD /* hu.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hu.lproj; path = "Supporting Files/hu.lproj"; sourceTree = "<group>"; };
+		B3E251D621582C6A00B6CCCD /* es-CL.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-CL.lproj"; path = "Supporting Files/es-CL.lproj"; sourceTree = "<group>"; };
+		B3E251D721582C6A00B6CCCD /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Supporting Files/zh-Hans.lproj"; sourceTree = "<group>"; };
+		B3E251D821582C6B00B6CCCD /* zh-Hant-TW.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "zh-Hant-TW.lproj"; path = "Supporting Files/zh-Hant-TW.lproj"; sourceTree = "<group>"; };
+		B3E251D921582C6B00B6CCCD /* es-NI.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-NI.lproj"; path = "Supporting Files/es-NI.lproj"; sourceTree = "<group>"; };
+		B3E251DA21582C6B00B6CCCD /* ka-GE.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ka-GE.lproj"; path = "Supporting Files/ka-GE.lproj"; sourceTree = "<group>"; };
+		B3E251DB21582C6B00B6CCCD /* es-PA.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "es-PA.lproj"; path = "Supporting Files/es-PA.lproj"; sourceTree = "<group>"; };
+		B3E251DC21582C6B00B6CCCD /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "Supporting Files/en.lproj"; sourceTree = "<group>"; };
+		B3E251DD21582C6B00B6CCCD /* nl.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = nl.lproj; path = "Supporting Files/nl.lproj"; sourceTree = "<group>"; };
+		B3E251DE21582C6C00B6CCCD /* ast.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ast.lproj; path = "Supporting Files/ast.lproj"; sourceTree = "<group>"; };
 		F700222B1EC479840080073F /* Custom.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Custom.xcassets; sourceTree = "<group>"; };
 		F70022591EC4C9100080073F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		F700225A1EC4C9100080073F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -1795,6 +1891,54 @@
 		F72B60941A24F04E004EF66F /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
+				B3E251DE21582C6C00B6CCCD /* ast.lproj */,
+				B3E251C421582C6700B6CCCD /* ca.lproj */,
+				B3E251D421582C6900B6CCCD /* cs-CZ.lproj */,
+				B3E251B221582C6400B6CCCD /* da.lproj */,
+				B3E251BD21582C6600B6CCCD /* de.lproj */,
+				B3E251B921582C6500B6CCCD /* el.lproj */,
+				B3E251D021582C6800B6CCCD /* en-GB.lproj */,
+				B3E251DC21582C6B00B6CCCD /* en.lproj */,
+				B3E251B521582C6400B6CCCD /* es-419.lproj */,
+				B3E251C021582C6600B6CCCD /* es-AR.lproj */,
+				B3E251D621582C6A00B6CCCD /* es-CL.lproj */,
+				B3E251C121582C6600B6CCCD /* es-CO.lproj */,
+				B3E251BF21582C6600B6CCCD /* es-CR.lproj */,
+				B3E251CD21582C6800B6CCCD /* es-DO.lproj */,
+				B3E251C221582C6700B6CCCD /* es-EC.lproj */,
+				B3E251BB21582C6500B6CCCD /* es-GT.lproj */,
+				B3E251CE21582C6800B6CCCD /* es-HN.lproj */,
+				B3E251BA21582C6500B6CCCD /* es-MX.lproj */,
+				B3E251D921582C6B00B6CCCD /* es-NI.lproj */,
+				B3E251DB21582C6B00B6CCCD /* es-PA.lproj */,
+				B3E251D221582C6900B6CCCD /* es-PE.lproj */,
+				B3E251BC21582C6600B6CCCD /* es-PR.lproj */,
+				B3E251BE21582C6600B6CCCD /* es-PY.lproj */,
+				B3E251D321582C6900B6CCCD /* es-SV.lproj */,
+				B3E251B721582C6500B6CCCD /* es-UY.lproj */,
+				B3E251AF21582C6300B6CCCD /* es.lproj */,
+				B3E251C321582C6700B6CCCD /* fa.lproj */,
+				B3E251C521582C6700B6CCCD /* fi-FI.lproj */,
+				B3E251C621582C6700B6CCCD /* fr.lproj */,
+				B3E251D521582C6A00B6CCCD /* hu.lproj */,
+				B3E251B421582C6400B6CCCD /* is.lproj */,
+				B3E251CA21582C6800B6CCCD /* it.lproj */,
+				B3E251B321582C6400B6CCCD /* ja_JP.lproj */,
+				B3E251DA21582C6B00B6CCCD /* ka-GE.lproj */,
+				B3E251B821582C6500B6CCCD /* ko.lproj */,
+				B3E251B021582C6300B6CCCD /* nb-NO.lproj */,
+				B3E251DD21582C6B00B6CCCD /* nl.lproj */,
+				B3E251C721582C6700B6CCCD /* pl.lproj */,
+				B3E251CB21582C6800B6CCCD /* pt-BR.lproj */,
+				B3E251B621582C6400B6CCCD /* pt-PT.lproj */,
+				B3E251C821582C6700B6CCCD /* ru.lproj */,
+				B3E251C921582C6800B6CCCD /* sk-SK.lproj */,
+				B3E251B121582C6300B6CCCD /* sq.lproj */,
+				B3E251CC21582C6800B6CCCD /* sr.lproj */,
+				B3E251D121582C6900B6CCCD /* sv.lproj */,
+				B3E251CF21582C6800B6CCCD /* tr.lproj */,
+				B3E251D721582C6A00B6CCCD /* zh-Hans.lproj */,
+				B3E251D821582C6B00B6CCCD /* zh-Hant-TW.lproj */,
 			);
 			name = Localizations;
 			sourceTree = "<group>";
@@ -3390,7 +3534,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75ADF451DC75FFE008A7347 /* CCLogin.storyboard in Resources */,
+				B3E2520A21582C6D00B6CCCD /* ka-GE.lproj in Resources */,
+				B3E251EC21582C6C00B6CCCD /* es-PR.lproj in Resources */,
+				B3E251F021582C6D00B6CCCD /* es-AR.lproj in Resources */,
+				B3E2520B21582C6D00B6CCCD /* es-PA.lproj in Resources */,
 				F7F54CED1E5B14C700E19C62 /* ImageSelectedOn@3x.png in Resources */,
+				B3E2520421582C6D00B6CCCD /* cs-CZ.lproj in Resources */,
 				F7D4234D1F0596AC009C9782 /* Reader-Thumbs.png in Resources */,
 				F7F54CF41E5B14C700E19C62 /* PlayButtonOverlayLarge.png in Resources */,
 				F7F54D041E5B14C800E19C62 /* VideoOverlay@2x.png in Resources */,
@@ -3398,46 +3547,65 @@
 				F77D49A91DC238E500CDC568 /* loading.gif in Resources */,
 				F7F54CF91E5B14C700E19C62 /* PlayButtonOverlayLargeTap@3x.png in Resources */,
 				F7D4233D1F0596AC009C9782 /* Reader-Button-N@3x.png in Resources */,
+				B3E251FE21582C6D00B6CCCD /* es-HN.lproj in Resources */,
+				B3E251F921582C6D00B6CCCD /* sk-SK.lproj in Resources */,
 				F73B4EF21F470D9100BBEE4B /* EUCTWFreq.tab in Resources */,
 				F700222C1EC479840080073F /* Custom.xcassets in Resources */,
 				F758B45A212C564000515F55 /* Scan.storyboard in Resources */,
+				B3E2520121582C6D00B6CCCD /* sv.lproj in Resources */,
 				F77B0EFE1D118A16002130FE /* CCUploadFromOtherUpp.storyboard in Resources */,
+				B3E251EE21582C6D00B6CCCD /* es-PY.lproj in Resources */,
+				B3E251FF21582C6D00B6CCCD /* tr.lproj in Resources */,
+				B3E251F821582C6D00B6CCCD /* ru.lproj in Resources */,
+				B3E251F721582C6D00B6CCCD /* pl.lproj in Resources */,
 				F7D4246E1F063B82009C9782 /* CTAssetsPickerController.bundle in Resources */,
+				B3E2520521582C6D00B6CCCD /* hu.lproj in Resources */,
 				F762CB991EACB84400B38484 /* icon-success.png in Resources */,
 				F7F54CF81E5B14C700E19C62 /* PlayButtonOverlayLargeTap@2x.png in Resources */,
 				F77B0F0E1D118A16002130FE /* (null) in Resources */,
 				F73B4EEE1F470D9100BBEE4B /* Big5Freq.tab in Resources */,
+				B3E251F221582C6D00B6CCCD /* es-EC.lproj in Resources */,
 				F7D4233B1F0596AC009C9782 /* Reader-Button-N.png in Resources */,
 				F7F54CF31E5B14C700E19C62 /* ImageSelectedSmallOn@3x.png in Resources */,
 				F7D423441F0596AC009C9782 /* Reader-Mark-N.png in Resources */,
 				F77B0F181D118A16002130FE /* (null) in Resources */,
 				F7F54CFA1E5B14C700E19C62 /* UIBarButtonItemArrowLeft.png in Resources */,
 				F7FCFFD81D70798C000E6E29 /* CCPeekPop.storyboard in Resources */,
+				B3E2520E21582C6D00B6CCCD /* ast.lproj in Resources */,
 				F7F54CF61E5B14C700E19C62 /* PlayButtonOverlayLarge@3x.png in Resources */,
 				F7D423371F0596AC009C9782 /* AppIcon-180.png in Resources */,
 				F7D423401F0596AC009C9782 /* Reader-Email@3x.png in Resources */,
+				B3E251E821582C6C00B6CCCD /* ko.lproj in Resources */,
 				F7D423391F0596AC009C9782 /* Reader-Button-H@2x.png in Resources */,
 				F7D423351F0596AC009C9782 /* AppIcon-152.png in Resources */,
 				F7B1FBC41E72E3D1001781FE /* Media.xcassets in Resources */,
+				B3E251FA21582C6D00B6CCCD /* it.lproj in Resources */,
 				F7D4234E1F0596AC009C9782 /* Reader-Thumbs@2x.png in Resources */,
 				F77B0F2F1D118A16002130FE /* CCMove.storyboard in Resources */,
 				F7F54D001E5B14C700E19C62 /* UIBarButtonItemGrid.png in Resources */,
 				F7F54CFE1E5B14C700E19C62 /* UIBarButtonItemArrowRight@2x.png in Resources */,
+				B3E251E021582C6C00B6CCCD /* nb-NO.lproj in Resources */,
 				F7659A371DC0B737004860C4 /* iRate.bundle in Resources */,
+				B3E2520321582C6D00B6CCCD /* es-SV.lproj in Resources */,
+				B3E2520821582C6D00B6CCCD /* zh-Hant-TW.lproj in Resources */,
 				F7F54D031E5B14C800E19C62 /* VideoOverlay.png in Resources */,
 				F7F54CE81E5B14C700E19C62 /* ImageSelectedOff.png in Resources */,
 				F7D4234B1F0596AC009C9782 /* Reader-Print@2x.png in Resources */,
 				F762CB971EACB84400B38484 /* icon-info.png in Resources */,
 				F7169A1E1EE590930086BD69 /* NCSharesCell.xib in Resources */,
+				B3E251FC21582C6D00B6CCCD /* sr.lproj in Resources */,
 				F73D71641F2674A400E233EB /* NCText.storyboard in Resources */,
 				F7226EDC1EE4089300EBECB1 /* Main.storyboard in Resources */,
 				F7D423471F0596AC009C9782 /* Reader-Mark-Y.png in Resources */,
 				F7D423431F0596AC009C9782 /* Reader-Export@3x.png in Resources */,
+				B3E2520021582C6D00B6CCCD /* en-GB.lproj in Resources */,
 				F7D4233C1F0596AC009C9782 /* Reader-Button-N@2x.png in Resources */,
 				F7D423411F0596AC009C9782 /* Reader-Export.png in Resources */,
+				B3E2520721582C6D00B6CCCD /* zh-Hans.lproj in Resources */,
 				F77B0F481D118A16002130FE /* synchronized.gif in Resources */,
 				F7D4233E1F0596AC009C9782 /* Reader-Email.png in Resources */,
 				F762CB981EACB84400B38484 /* icon-info@2x.png in Resources */,
+				B3E251EF21582C6D00B6CCCD /* es-CR.lproj in Resources */,
 				F7D423361F0596AC009C9782 /* AppIcon-167.png in Resources */,
 				F7F54CF71E5B14C700E19C62 /* PlayButtonOverlayLargeTap.png in Resources */,
 				F710E8111EF95C9C00DC2427 /* ImagesIntro.xcassets in Resources */,
@@ -3446,12 +3614,16 @@
 				F7F54CEA1E5B14C700E19C62 /* ImageSelectedOff@3x.png in Resources */,
 				F732B3371E8045A1002B7D75 /* (null) in Resources */,
 				F7F54CF11E5B14C700E19C62 /* ImageSelectedSmallOn.png in Resources */,
+				B3E251E721582C6C00B6CCCD /* es-UY.lproj in Resources */,
 				F762CB1B1EACB66200B38484 /* XLForm.bundle in Resources */,
 				F7CA1ED520E7E3FE002CC65E /* .gitkeep in Resources */,
 				F762CB9A1EACB84400B38484 /* icon-success@2x.png in Resources */,
+				B3E251F321582C6D00B6CCCD /* fa.lproj in Resources */,
 				F77B0F551D118A16002130FE /* (null) in Resources */,
 				F77B0F571D118A16002130FE /* synchronizedcrypto.gif in Resources */,
 				F7F54CEE1E5B14C700E19C62 /* ImageSelectedSmallOff.png in Resources */,
+				B3E2520621582C6D00B6CCCD /* es-CL.lproj in Resources */,
+				B3E251ED21582C6C00B6CCCD /* de.lproj in Resources */,
 				F73B4EF31F470D9100BBEE4B /* GB2312Freq.tab in Resources */,
 				F7B2DEF11F976859007CF4D2 /* english.txt in Resources */,
 				F7F54D051E5B14C800E19C62 /* VideoOverlay@3x.png in Resources */,
@@ -3466,27 +3638,42 @@
 				F77B0F631D118A16002130FE /* (null) in Resources */,
 				F7D4234C1F0596AC009C9782 /* Reader-Print@3x.png in Resources */,
 				F7F54CFB1E5B14C700E19C62 /* UIBarButtonItemArrowLeft@2x.png in Resources */,
+				B3E251F421582C6D00B6CCCD /* ca.lproj in Resources */,
 				F76F23341ED4603700C40023 /* LaunchScreen.xib in Resources */,
 				F77B0F671D118A16002130FE /* (null) in Resources */,
 				F7C525A21E3B6DA800FFE02C /* CCNotification.storyboard in Resources */,
 				F7F54CEB1E5B14C700E19C62 /* ImageSelectedOn.png in Resources */,
+				B3E2520D21582C6D00B6CCCD /* nl.lproj in Resources */,
+				B3E251E521582C6C00B6CCCD /* es-419.lproj in Resources */,
+				B3E2520221582C6D00B6CCCD /* es-PE.lproj in Resources */,
+				B3E251E221582C6C00B6CCCD /* da.lproj in Resources */,
+				B3E251F521582C6D00B6CCCD /* fi-FI.lproj in Resources */,
+				B3E2520921582C6D00B6CCCD /* es-NI.lproj in Resources */,
 				F762CB951EACB84400B38484 /* icon-error.png in Resources */,
 				F7F54CF01E5B14C700E19C62 /* ImageSelectedSmallOff@3x.png in Resources */,
 				F73B4EF01F470D9100BBEE4B /* CMakeLists.txt in Resources */,
 				F7F54CEC1E5B14C700E19C62 /* ImageSelectedOn@2x.png in Resources */,
 				F73B4F151F470D9100BBEE4B /* symbols.cmake in Resources */,
 				F7F54CF21E5B14C700E19C62 /* ImageSelectedSmallOn@2x.png in Resources */,
+				B3E251F621582C6D00B6CCCD /* fr.lproj in Resources */,
 				F7D4233A1F0596AC009C9782 /* Reader-Button-H@3x.png in Resources */,
 				F7D423341F0596AC009C9782 /* AppIcon-120.png in Resources */,
 				F7D4234F1F0596AC009C9782 /* Reader-Thumbs@3x.png in Resources */,
+				B3E251E621582C6C00B6CCCD /* pt-PT.lproj in Resources */,
+				B3E251E321582C6C00B6CCCD /* ja_JP.lproj in Resources */,
 				F7F54CE51E5B14C700E19C62 /* ImageError.png in Resources */,
+				B3E251FB21582C6D00B6CCCD /* pt-BR.lproj in Resources */,
 				F7D423381F0596AC009C9782 /* Reader-Button-H.png in Resources */,
 				F7F54CFC1E5B14C700E19C62 /* UIBarButtonItemArrowLeft@3x.png in Resources */,
+				B3E251E921582C6C00B6CCCD /* el.lproj in Resources */,
 				F77B0F7D1D118A16002130FE /* Images.xcassets in Resources */,
 				F7D423491F0596AC009C9782 /* Reader-Mark-Y@3x.png in Resources */,
+				B3E251DF21582C6C00B6CCCD /* es.lproj in Resources */,
 				F7D423421F0596AC009C9782 /* Reader-Export@2x.png in Resources */,
 				F7F54CE91E5B14C700E19C62 /* ImageSelectedOff@2x.png in Resources */,
+				B3E251EA21582C6C00B6CCCD /* es-MX.lproj in Resources */,
 				F77B0F8A1D118A16002130FE /* CCCellMain.xib in Resources */,
+				B3E2520C21582C6D00B6CCCD /* en.lproj in Resources */,
 				F77B0F8C1D118A16002130FE /* CCCellMainTransfer.xib in Resources */,
 				F73B4EF41F470D9100BBEE4B /* JISFreq.tab in Resources */,
 				F7D423451F0596AC009C9782 /* Reader-Mark-N@2x.png in Resources */,
@@ -3495,12 +3682,17 @@
 				F7D4233F1F0596AC009C9782 /* Reader-Email@2x.png in Resources */,
 				F73B4EF11F470D9100BBEE4B /* EUCKRFreq.tab in Resources */,
 				F75797AE1E81356C00187A1B /* (null) in Resources */,
+				B3E251FD21582C6D00B6CCCD /* es-DO.lproj in Resources */,
+				B3E251E121582C6C00B6CCCD /* sq.lproj in Resources */,
+				B3E251F121582C6D00B6CCCD /* es-CO.lproj in Resources */,
 				B370968321320CE1007899E3 /* (null) in Resources */,
+				B3E251EB21582C6C00B6CCCD /* es-GT.lproj in Resources */,
 				F774DF111FCC26BE002AF9FC /* iTunesArtwork@3x.png in Resources */,
 				F762CB961EACB84400B38484 /* icon-error@2x.png in Resources */,
 				F7D4234A1F0596AC009C9782 /* Reader-Print.png in Resources */,
 				F7D423331F0596AC009C9782 /* AppIcon-076.png in Resources */,
 				F7F54CFD1E5B14C700E19C62 /* UIBarButtonItemArrowRight.png in Resources */,
+				B3E251E421582C6C00B6CCCD /* is.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
