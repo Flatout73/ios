@@ -597,8 +597,14 @@
             [_ImageTitleHomeCryptoCloud addGestureRecognizer:singleTap];
             
             _ImageTitleHomeCryptoCloud.contentMode = UIViewContentModeScaleAspectFit;
+            _ImageTitleHomeCryptoCloud.clipsToBounds = YES;
             
-            self.navigationItem.titleView = _ImageTitleHomeCryptoCloud;
+            UIView* titleView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, 100, 40)];
+            [titleView addSubview:_ImageTitleHomeCryptoCloud];
+            
+            self.navigationItem.titleView = titleView;
+            
+            _ImageTitleHomeCryptoCloud.frame = CGRectMake(32, 2, 36, 36);
             
         } else {
         
