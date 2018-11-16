@@ -103,7 +103,7 @@
     buttonView.userInteractionEnabled = YES ;
     
     UIButton *buttonLogin = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    buttonLogin.frame = CGRectMake(50.0, 0.0, width - 100.0, 40.0);
+    buttonLogin.frame = CGRectMake(50.0, 30.0, width - 100.0, 40.0);
     buttonLogin.layer.cornerRadius = 3;
     buttonLogin.clipsToBounds = YES;
     [buttonLogin setTitle:[NSLocalizedStringFromTable(@"_log_in_", @"Intro", nil) uppercaseString] forState:UIControlStateNormal];
@@ -112,18 +112,18 @@
     buttonLogin.backgroundColor = [[NCBrandColor sharedInstance] customerText];
     [buttonLogin addTarget:self action:@selector(login:) forControlEvents:UIControlEventTouchDown];
     
-    UIButton *buttonSignUp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    buttonSignUp.frame = CGRectMake(50.0, 60.0, width - 100.0, 40.0);
-    buttonSignUp.layer.cornerRadius = 3;
-    buttonSignUp.clipsToBounds = YES;
-    [buttonSignUp setTitle:[NSLocalizedStringFromTable(@"_sign_up_", @"Intro", nil) uppercaseString] forState:UIControlStateNormal];
-    buttonSignUp.titleLabel.font = [UIFont systemFontOfSize:14];
-    [buttonSignUp setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    buttonSignUp.backgroundColor = [UIColor colorWithRed:25.0/255.0 green:89.0/255.0 blue:141.0/255.0 alpha:1.000];
-    [buttonSignUp addTarget:self action:@selector(signUp:) forControlEvents:UIControlEventTouchDown];
+//    UIButton *buttonSignUp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    buttonSignUp.frame = CGRectMake(50.0, 60.0, width - 100.0, 40.0);
+//    buttonSignUp.layer.cornerRadius = 3;
+//    buttonSignUp.clipsToBounds = YES;
+//    [buttonSignUp setTitle:[NSLocalizedStringFromTable(@"_sign_up_", @"Intro", nil) uppercaseString] forState:UIControlStateNormal];
+//    buttonSignUp.titleLabel.font = [UIFont systemFontOfSize:14];
+//    [buttonSignUp setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    buttonSignUp.backgroundColor = [UIColor colorWithRed:25.0/255.0 green:89.0/255.0 blue:141.0/255.0 alpha:1.000];
+//    [buttonSignUp addTarget:self action:@selector(signUp:) forControlEvents:UIControlEventTouchDown];
     
     [buttonView addSubview:buttonLogin];
-    [buttonView addSubview:buttonSignUp];
+//    [buttonView addSubview:buttonSignUp];
     
     // Pages
     
