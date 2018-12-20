@@ -429,6 +429,10 @@
         if ([[self.baseUrl.text substringFromIndex:[self.baseUrl.text length] - 1] isEqualToString:@"/"])
             self.baseUrl.text = [self.baseUrl.text substringToIndex:[self.baseUrl.text length] - 1];
         
+        NSRange range = [self.user.text rangeOfString:@"@hse.ru"];
+        if (range.location != NSNotFound)
+            self.user.text = [self.user.text substringToIndex:range.location];
+        
         NSString *url = self.baseUrl.text;
         NSString *user = self.user.text;
         NSString *password = self.password.text;
